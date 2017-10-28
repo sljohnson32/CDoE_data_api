@@ -1,6 +1,6 @@
-const schoolData = require('../../data/BYOB_schools_data');
-const countyData = require('../../data/BYOB_counties_data');
-const districtData = require('../../data/BYOB_districts_data');
+const schoolData = require('../../data/ALL_schools_data');
+const countyData = require('../../data/ALL_counties_data');
+const districtData = require('../../data/ALL_districts_data');
 
 const createCounty = (knex, county) => {
   return knex('counties').insert({
@@ -49,16 +49,18 @@ const createDistrict = (knex, district) => {
 
 const createSchool = (knex, school) => {
 
-  let student_c = parseFloat(school.student_count);
-  let teacher_c = parseFloat(school.teacher_count);
-  let student_teacher_r = parseFloat(school.pupil_teacher_ratio);
-
   return knex('schools').insert({
     name: school.school_name,
     school_code: school.school_code,
-    student_count: student_c,
-    teacher_count: teacher_c,
-    student_teacher_ratio: student_teacher_r,
+    dps_school_code: school.dps_school_code,
+    address: school.school_address,
+    phone: school.school_phone ,
+    principal_name: school.school_principal_name,
+    grade_levels: school.school_grade_levels,
+    grade_display: school.school_grade_display,
+    website: school.school_website,
+    type: school.school_type,
+    location: school.school_location,
     district_id: school.district_id
   })
     .catch(error => console.log(`Error seeding school data: ${error}`));
