@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
-const jwt = require('jsonwebtoken');
-const secretKey = process.env.secretKey || require('./secretKey');
+// const jwt = require('jsonwebtoken');
+// const secretKey = process.env.secretKey || require('./secretKey');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -13,27 +13,27 @@ app.use(express.static(__dirname + '/public'));
 
 app.set('port', process.env.PORT || 3000);
 
-const checkAuth = (request, response, next) => {
-  let bodyToken = request.body.token;
-  let headerToken = request.get('authorization');
-  let paramToken = request.param.token;
-  let token = bodyToken || headerToken || paramToken;
-  let allowedAppName = 'byob';
-
-  if(!token) {
-    return response.status(403).json({ error: 'Invalid Token' });
-  }
-
-  jwt.verify(token, secretKey, (error, decoded) => {
-    if (error) {
-      return response.status(403).json(error);
-    } else if (!decoded.admin) {
-      return response.status(403).json({ error: 'Admin priviledges are required to complete this action.' });
-    } else if (decoded.appName !== allowedAppName){
-      return response.status(403).json({ error: 'Invalid App' });
-    } else next();
-  });
-};
+// const checkAuth = (request, response, next) => {
+//   let bodyToken = request.body.token;
+//   let headerToken = request.get('authorization');
+//   let paramToken = request.param.token;
+//   let token = bodyToken || headerToken || paramToken;
+//   let allowedAppName = 'byob';
+//
+//   if(!token) {
+//     return response.status(403).json({ error: 'Invalid Token' });
+//   }
+//
+//   jwt.verify(token, secretKey, (error, decoded) => {
+//     if (error) {
+//       return response.status(403).json(error);
+//     } else if (!decoded.admin) {
+//       return response.status(403).json({ error: 'Admin priviledges are required to complete this action.' });
+//     } else if (decoded.appName !== allowedAppName){
+//       return response.status(403).json({ error: 'Invalid App' });
+//     } else next();
+//   });
+// };
 
 //Client-side endpoint
 app.get('/', (request, response) => {
@@ -41,22 +41,22 @@ app.get('/', (request, response) => {
 });
 
 //Authentication endpoint
-app.post('/api/v1/authentication', (request, response) => {
-  let payload = request.body;
-  let options = { expiresIn: '1h' };
-
-  for (let requiredParameter of ['email', 'appName']) {
-    if (!request.body[requiredParameter]) {
-      return response
-        .status(422)
-        .send({ error: `Expected format: { email: <String>, appName: <String> }. You're missing a '${requiredParameter}' property.` });
-    }
-  }
-  if (payload.email.endsWith('@turing.io')) { payload.admin = true; }
-
-  let token = jwt.sign(payload, secretKey, options);
-  return response.status(201).json(token);
-});
+// app.post('/api/v1/authentication', (request, response) => {
+//   let payload = request.body;
+//   let options = { expiresIn: '1h' };
+//
+//   for (let requiredParameter of ['email', 'appName']) {
+//     if (!request.body[requiredParameter]) {
+//       return response
+//         .status(422)
+//         .send({ error: `Expected format: { email: <String>, appName: <String> }. You're missing a '${requiredParameter}' property.` });
+//     }
+//   }
+//   if (payload.email.endsWith('@turing.io')) { payload.admin = true; }
+//
+//   let token = jwt.sign(payload, secretKey, options);
+//   return response.status(201).json(token);
+// });
 
 //API endpoints
 app.get('/api/v1/schools', (request, response) => {
@@ -165,7 +165,7 @@ app.get('/api/v1/schools/:id', (request, response) => {
     });
 });
 
-app.post('/api/v1/schools', checkAuth, (request, response) => {
+app.post('/api/v1/schools', (request, response) => {
   const school = request.body;
 
   for (let requiredParameter of ['name', 'school_code', 'student_count', 'teacher_count', 'student_teacher_ratio', 'district_id']) {
@@ -185,7 +185,7 @@ app.post('/api/v1/schools', checkAuth, (request, response) => {
     });
 });
 
-app.post('/api/v1/districts', checkAuth, (request, response) => {
+app.post('/api/v1/districts', (request, response) => {
   const district = request.body;
 
   for (let requiredParameter of ['name', 'district_code', 'county_id']) {
@@ -205,7 +205,7 @@ app.post('/api/v1/districts', checkAuth, (request, response) => {
 });
 
 //put & patch schools
-app.put('/api/v1/schools/:id', checkAuth, (request, response) => {
+app.put('/api/v1/schools/:id', (request, response) => {
   let { id } = request.params;
   let school = request.body;
 
@@ -226,7 +226,7 @@ app.put('/api/v1/schools/:id', checkAuth, (request, response) => {
     });
 });
 
-app.patch('/api/v1/schools/:id', checkAuth, (request, response) => {
+app.patch('/api/v1/schools/:id', (request, response) => {
   let { id } = request.params;
   let schoolPatch = request.body;
 
@@ -240,7 +240,7 @@ app.patch('/api/v1/schools/:id', checkAuth, (request, response) => {
 });
 
 //delete
-app.delete('/api/v1/schools/:id', checkAuth, (request, response) => {
+app.delete('/api/v1/schools/:id', (request, response) => {
   const { id } = request.params;
 
   database('schools').where({ id }).del()
@@ -254,7 +254,7 @@ app.delete('/api/v1/schools/:id', checkAuth, (request, response) => {
     });
 });
 
-app.delete('/api/v1/districts/:id', checkAuth, (request, response) => {
+app.delete('/api/v1/districts/:id', (request, response) => {
   const { id } = request.params;
 
   database('districts').where({ id }).del()
@@ -269,7 +269,7 @@ app.delete('/api/v1/districts/:id', checkAuth, (request, response) => {
 });
 
 app.listen(app.get('port'), () => {
-  console.log(`BYOB is running on ${app.get('port')}.`); // eslint-disable-line
+  console.log(`CDoE Data API is running on ${app.get('port')}.`); // eslint-disable-line
 });
 
 module.exports = app;

@@ -3,7 +3,7 @@
 module.exports = {
   test: {
     client: 'pg',
-    connection: process.env.DATABASE_URL || 'postgres://localhost/CDoE_data_api_test',
+    connection: process.env.DATABASE_URL || 'postgres://localhost/cdoe_data_api_test',
     migrations: {
       directory: './db/migrations'
     },
@@ -14,7 +14,7 @@ module.exports = {
   },
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/CDoE_data_api',
+    connection: 'postgres://localhost/cdoe_data_api',
     migrations: {
       directory: './db/migrations'
     },
