@@ -1,0 +1,262 @@
+[
+  {
+    "code": "1",
+    "name": "ADAMS"
+  },
+  {
+    "code": "2",
+    "name": "ALAMOSA"
+  },
+  {
+    "code": "3",
+    "name": "ARAPAHOE"
+  },
+  {
+    "code": "4",
+    "name": "ARCHULETA"
+  },
+  {
+    "code": "5",
+    "name": "BACA"
+  },
+  {
+    "code": "6",
+    "name": "BENT"
+  },
+  {
+    "code": "7",
+    "name": "BOULDER"
+  },
+  {
+    "code": "8",
+    "name": "CHAFFEE"
+  },
+  {
+    "code": "9",
+    "name": "CHEYENNE"
+  },
+  {
+    "code": "10",
+    "name": "CLEAR CREEK"
+  },
+  {
+    "code": "11",
+    "name": "CONEJOS"
+  },
+  {
+    "code": "12",
+    "name": "COSTILLA"
+  },
+  {
+    "code": "13",
+    "name": "CROWLEY"
+  },
+  {
+    "code": "14",
+    "name": "CUSTER"
+  },
+  {
+    "code": "15",
+    "name": "DELTA"
+  },
+  {
+    "code": "16",
+    "name": "DENVER"
+  },
+  {
+    "code": "17",
+    "name": "DOLORES"
+  },
+  {
+    "code": "18",
+    "name": "DOUGLAS"
+  },
+  {
+    "code": "19",
+    "name": "EAGLE"
+  },
+  {
+    "code": "20",
+    "name": "ELBERT"
+  },
+  {
+    "code": "21",
+    "name": "EL PASO"
+  },
+  {
+    "code": "22",
+    "name": "FREMONT"
+  },
+  {
+    "code": "23",
+    "name": "GARFIELD"
+  },
+  {
+    "code": "24",
+    "name": "GILPIN"
+  },
+  {
+    "code": "25",
+    "name": "GRAND"
+  },
+  {
+    "code": "26",
+    "name": "GUNNISON"
+  },
+  {
+    "code": "27",
+    "name": "HINSDALE"
+  },
+  {
+    "code": "28",
+    "name": "HUERFANO"
+  },
+  {
+    "code": "29",
+    "name": "JACKSON"
+  },
+  {
+    "code": "30",
+    "name": "JEFFERSON"
+  },
+  {
+    "code": "31",
+    "name": "KIOWA"
+  },
+  {
+    "code": "32",
+    "name": "KIT CARSON"
+  },
+  {
+    "code": "33",
+    "name": "LAKE"
+  },
+  {
+    "code": "34",
+    "name": "LA PLATA"
+  },
+  {
+    "code": "35",
+    "name": "LARIMER"
+  },
+  {
+    "code": "36",
+    "name": "LAS ANIMAS"
+  },
+  {
+    "code": "37",
+    "name": "LINCOLN"
+  },
+  {
+    "code": "38",
+    "name": "LOGAN"
+  },
+  {
+    "code": "39",
+    "name": "MESA"
+  },
+  {
+    "code": "40",
+    "name": "MINERAL"
+  },
+  {
+    "code": "41",
+    "name": "MOFFAT"
+  },
+  {
+    "code": "42",
+    "name": "MONTEZUMA"
+  },
+  {
+    "code": "43",
+    "name": "MONTROSE"
+  },
+  {
+    "code": "44",
+    "name": "MORGAN"
+  },
+  {
+    "code": "45",
+    "name": "OTERO"
+  },
+  {
+    "code": "46",
+    "name": "OURAY"
+  },
+  {
+    "code": "47",
+    "name": "PARK"
+  },
+  {
+    "code": "48",
+    "name": "PHILLIPS"
+  },
+  {
+    "code": "49",
+    "name": "PITKIN"
+  },
+  {
+    "code": "50",
+    "name": "PROWERS"
+  },
+  {
+    "code": "51",
+    "name": "PUEBLO"
+  },
+  {
+    "code": "52",
+    "name": "RIO BLANCO"
+  },
+  {
+    "code": "53",
+    "name": "RIO GRANDE"
+  },
+  {
+    "code": "54",
+    "name": "ROUTT"
+  },
+  {
+    "code": "55",
+    "name": "SAGUACHE"
+  },
+  {
+    "code": "56",
+    "name": "SAN JUAN"
+  },
+  {
+    "code": "57",
+    "name": "SAN MIGUEL"
+  },
+  {
+    "code": "58",
+    "name": "SEDGWICK"
+  },
+  {
+    "code": "59",
+    "name": "SUMMIT"
+  },
+  {
+    "code": "60",
+    "name": "TELLER"
+  },
+  {
+    "code": "61",
+    "name": "WASHINGTON"
+  },
+  {
+    "code": "62",
+    "name": "WELD"
+  },
+  {
+    "code": "63",
+    "name": "YUMA"
+  },
+  {
+    "code": "90",
+    "name": "COLORADO BOCS"
+  },
+  {
+    "code": "98",
+    "name": "NONE"
+  }
+]

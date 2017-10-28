@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <title>BYOB - School Finder</title>
+  </head>
+  <body>
+    <header>BYOB - School Finder</header>
+    <div id='auth-container'>
+      <h4>Please enter your email below to receive an authorization token.<br><a href='https://github.com/sljohnson32/byob'>API Docs</a></h4>
+      <input id='email-input' placeholder='Please enter a valid email here...'/>
+      <button id='submit-email'>Submit Email</button>
+      <section id='auth-token-container'>
+        Your JSON Web Token will display here.
+      </section>
+    </div>
+
+    <script type="text/javascript">
+
+      var emailInput;
+
+      function getJWT() {
+        console.log(emailInput)
+        var body = { email: emailInput, appName: "byob"};
+        fetch('/api/v1/authentication', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        })
+        .then(response => response.json())
+        .then(data => {
+          console.log(data)
+          document.getElementById('auth-token-container').textContent = data;
+        })
+      }
+
+      function inApp() {
+        document.getElementById('submit-email').addEventListener('click', getJWT, false)
+
+        document.getElementById('email-input').addEventListener('change', function (e) {
+          emailInput = e.target.value
+        })
+      }
+
+      window.onload = () => {
+        inApp();
+      };
+
+
+    </script>
+  </body>
+</html>
