@@ -1,6 +1,7 @@
 const schoolData = require('../../data/ALL_schools_data');
 const countyData = require('../../data/ALL_counties_data');
 const districtData = require('../../data/ALL_districts_data');
+const studentTeacherRatioData = require('../../data/school_metrics/student_teacher_ratio');
 
 const createCounty = (knex, county) => {
   return knex('counties').insert({
@@ -62,12 +63,38 @@ const createSchool = (knex, school) => {
     type: school.school_type,
     location: school.school_location,
     district_id: school.district_id
+  }, 'id').then(schoolID => {
+    let metricPromises = [];
+
+    let metrics = studentTeacherRatioData.filter(obj => {
+      return obj.school_code == school.school_code;
+    });
+
+    metrics.forEach(metric => {
+      metric.school_id = schoolID[0];
+      metricPromises.push(createSTRMetric(knex, metric))
+    });
+
+    return Promise.all(metricPromises);
   })
-    .catch(error => console.log(`Error seeding school data: ${error}`));
+  .catch(error => console.log(`Error seeding school data: ${error}`));
+};
+
+const createSTRMetric = (knex, metric) => {
+
+  return knex('student_teacher_ratios').insert({
+    school_id: metric.school_id,
+    school_year: metric.school_year,
+    student_count: metric.student_count,
+    teacher_count: metric.teacher_count,
+    ratio: metric.student_teacher_ratio
+  })
+  .catch(error => console.log(`Error seeding school data: ${error}`));
 };
 
 exports.seed = function(knex, Promise) {
-  return knex('schools').del()
+  return knex('student_teacher_ratios').del()
+    .then(() => knex('schools').del())
     .then(() => knex('districts').del())
     .then(() => knex('counties').del())
     .then(() => {

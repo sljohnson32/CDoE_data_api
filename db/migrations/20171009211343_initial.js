@@ -36,6 +36,17 @@ exports.up = function(knex, Promise) {
 
       table.timestamps(true, true);
     }),
+    knex.schema.createTable('student_teacher_ratio', function(table) {
+      table.increments('id').primary();
+      table.string('school_year');
+      table.decimal('student_count', 8, 2);
+      table.decimal('teacher_count', 8, 2);
+      table.decimal('ratio');
+      table.integer('school_id').unsigned();
+      table.foreign('school_id').references('schools.id');
+
+      table.timestamps(true, true);
+    }),
   ]);
 };
 
