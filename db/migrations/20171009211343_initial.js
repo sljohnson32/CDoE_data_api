@@ -9,7 +9,7 @@ exports.up = function(knex, Promise) {
     }),
     knex.schema.createTable('districts', function(table) {
       table.increments('id').primary();
-      table.string('name', 30).unique();
+      table.string('name', 50).unique();
       table.string('district_code', 4).unique();
       table.integer('county_id').unsigned();
       table.foreign('county_id').references('counties.id');
@@ -19,16 +19,16 @@ exports.up = function(knex, Promise) {
     knex.schema.createTable('schools', function(table) {
       table.increments('id').primary();
       table.string('name');
-      table.string('school_code', 4).unique();
-      table.string('dps_school_code', 4).unique();
+      table.string('school_code', 4);
+      table.string('dps_school_code', 4);
       table.string('address', 150);
       table.string('phone', 12);
-      table.string('principal_name', 100);
+      table.string('principal_name', 150);
       table.string('grade_levels', 10);
       table.string('grade_display', 30);
       table.string('website', 150);
       table.string('type', 20);
-      table.string('location', 30);
+      table.string('location', 60);
       table.integer('county_id').unsigned();
       table.foreign('county_id').references('counties.id');
       table.integer('district_id').unsigned();
@@ -41,8 +41,8 @@ exports.up = function(knex, Promise) {
 
 exports.down = function(knex, Promise) {
   return Promise.all([
-    knex.dropTable('schools'),
-    knex.dropTable('districts'),
-    knex.dropTable('counties')
+    knex.schema.dropTable('schools'),
+    knex.schema.dropTable('districts'),
+    knex.schema.dropTable('counties')
   ]);
 };

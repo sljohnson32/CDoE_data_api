@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sljohnson32/byob.git"
+    "url": "git+https://github.com/sljohnson32/CDoE_data_api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sljohnson32/byob/issues"
+    "url": "https://github.com/sljohnson32/CDoE_data_api/issues"
   },
-  "homepage": "https://github.com/sljohnson32/byob#readme",
+  "homepage": "https://github.com/sljohnson32/CDoE_data_api#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

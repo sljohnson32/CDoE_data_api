@@ -4,14 +4,14 @@ const districtData = require('../../data/ALL_districts_data');
 
 const createCounty = (knex, county) => {
   return knex('counties').insert({
-    name: county.name,
-    county_code: county.code
+    name: county.county_name,
+    county_code: county.county_code
   }, 'id')
     .then(countyID => {
       let districtPromises = [];
 
       let districts = districtData.filter(obj => {
-        return obj.county_code == county.code;
+        return obj.county_code == county.county_code;
       });
 
       districts.forEach(district => {
@@ -50,7 +50,7 @@ const createDistrict = (knex, district) => {
 const createSchool = (knex, school) => {
 
   return knex('schools').insert({
-    name: school.school_name,
+    name: school.name,
     school_code: school.school_code,
     dps_school_code: school.dps_school_code,
     address: school.school_address,
