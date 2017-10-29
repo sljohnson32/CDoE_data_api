@@ -1,6 +1,6 @@
 exports.up = function(knex, Promise) {
   return Promise.all([
-    knex.schema.createTable('student_teacher_ratios', function(table) {
+    knex.schema.createTable('school_student_teacher_ratios', function(table) {
       table.increments('id').primary();
       table.string('school_year');
       table.decimal('student_count', 8, 2);
@@ -16,6 +16,6 @@ exports.up = function(knex, Promise) {
 
 exports.down = function(knex, Promise) {
   return Promise.all([
-    knex.schema.dropTable('student_teacher_ratio'),
+    knex.schema.dropTable('school_student_teacher_ratio'),
   ]);
 };
