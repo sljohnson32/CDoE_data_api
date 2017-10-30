@@ -2,6 +2,7 @@ const schoolData = require('../../data/ALL_schools_data');
 const countyData = require('../../data/ALL_counties_data');
 const districtData = require('../../data/ALL_districts_data');
 const studentTeacherRatioData = require('../../data/school_metrics/student_teacher_ratio');
+const gradGEData = require('../../data/school_metrics/school_graduation_completion_gender_ethnicity');
 
 const createCounty = (knex, county) => {
   return knex('counties').insert({
@@ -64,15 +65,27 @@ const createSchool = (knex, school) => {
     location: school.school_location,
     district_id: school.district_id
   }, 'id').then(schoolID => {
+
     let metricPromises = [];
 
-    let metrics = studentTeacherRatioData.filter(obj => {
+    //Generate Promises for studentTeacherRatio
+    let studentTeacherRatioMetrics = studentTeacherRatioData.filter(obj => {
       return obj.school_code == school.school_code;
     });
 
-    metrics.forEach(metric => {
+    studentTeacherRatioMetrics.forEach(metric => {
       metric.school_id = schoolID[0];
       metricPromises.push(createSTRMetric(knex, metric))
+    });
+
+    //Generate Promises for grad rates by Gender and Ethnicity
+    let gradGEMetrics = gradGEData.filter(obj => {
+      return obj.school_code == school.school_code;
+    });
+
+    gradGEMetrics.forEach(metric => {
+      metric.school_id = schoolID[0];
+      metricPromises.push(createGradGEMetric(knex, metric))
     });
 
     return Promise.all(metricPromises);
@@ -89,11 +102,141 @@ const createSTRMetric = (knex, metric) => {
     teacher_count: metric.teacher_count,
     ratio: metric.student_teacher_ratio
   })
-  .catch(error => console.log(`Error seeding school data: ${error}`));
+  .catch(error => console.log(`Error seeding student teacher ratio data: ${error}`));
+};
+
+const createGradGEMetric = (knex, metric) => {
+
+  return knex('school_graduation_completion_gender_ethnicity').insert({
+    school_id: metric.school_id,
+    school_year: metric.school_year,
+    all_eligible_total: metric.all_eligible_total.replace(/,/g, ''),
+    all_grad_total: metric.all_grad_total.replace(/,/g, ''),
+    all_grad_rate: metric.all_grad_rate,
+    all_completers_total: metric.all_completers_total.replace(/,/g, ''),
+    all_completion_rate: metric.all_completion_rate,
+    all_female_eligible_grad_total: metric.all_female_eligible_grad_total.replace(/,/g, ''),
+    all_females_grads_total: metric.all_females_grads_total.replace(/,/g, ''),
+    all_female_grad_rate: metric.all_female_grad_rate,
+    all_female_completers_total: metric.all_female_completers_total.replace(/,/g, ''),
+    all_female_completion_rate: metric.all_female_completion_rate,
+    all_male_eligible_grad_total: metric.all_male_eligible_grad_total.replace(/,/g, ''),
+    all_male_grad_total: metric.all_male_grad_total.replace(/,/g, ''),
+    all_male_grad_rate: metric.all_male_grad_rate,
+    all_male_completers_total: metric.all_male_completers_total.replace(/,/g, ''),
+    all_male_completion_rate: metric.all_male_completion_rate,
+    ai_an_all_eligible_total: metric.ai_an_all_eligible_total.replace(/,/g, ''),
+    ai_an_all_grad_total: metric.ai_an_all_grad_total.replace(/,/g, ''),
+    ai_an_all_grad_rate: metric.ai_an_all_grad_rate,
+    ai_an_all_completers_total: metric.ai_an_all_completers_total.replace(/,/g, ''),
+    ai_an_all_completion_rate: metric.ai_an_all_completion_rate,
+    ai_an_female_eligible_total: metric.ai_an_female_eligible_total.replace(/,/g, ''),
+    ai_an_female_grad_total: metric.ai_an_female_grad_total.replace(/,/g, ''),
+    ai_an_female_grad_rate: metric.ai_an_female_grad_rate,
+    ai_an_female_completers_total: metric.ai_an_female_completers_total.replace(/,/g, ''),
+    ai_an_female_completion_rate: metric.ai_an_female_completion_rate,
+    ai_an_male_eligible_total: metric.ai_an_male_eligible_total.replace(/,/g, ''),
+    ai_an_male_grad_total: metric.ai_an_male_grad_total.replace(/,/g, ''),
+    ai_an_male_grad_rate: metric.ai_an_male_grad_rate,
+    ai_an_male_completers_total: metric.ai_an_male_completers_total.replace(/,/g, ''),
+    ai_an_male_completion_rate: metric.ai_an_male_completion_rate,
+    asian_all_eligible_total: metric.asian_all_eligible_total.replace(/,/g, ''),
+    asian_all_grad_total: metric.asian_all_grad_total.replace(/,/g, ''),
+    asian_all_grad_rate: metric.asian_all_grad_rate,
+    asian_all_completers_total: metric.asian_all_completers_total.replace(/,/g, ''),
+    asian_all_completion_rate: metric.asian_all_completion_rate,
+    asian_female_eligible_total: metric.asian_female_eligible_total.replace(/,/g, ''),
+    asian_female_grad_total: metric.asian_female_grad_total.replace(/,/g, ''),
+    asian_female_grad_rate: metric.asian_female_grad_rate,
+    asian_female_completers_total: metric.asian_female_completers_total.replace(/,/g, ''),
+    asian_female_completion_rate: metric.asian_female_completion_rate,
+    asian_male_eligible_total: metric.asian_male_eligible_total.replace(/,/g, ''),
+    asian_male_grad_total: metric.asian_male_grad_total.replace(/,/g, ''),
+    asian_male_grad_rate: metric.asian_male_grad_rate,
+    asian_male_completers_total: metric.asian_male_completers_total.replace(/,/g, ''),
+    asian_male_completion_rate: metric.asian_male_completion_rate,
+    b_aa_all_eligible_total: metric.b_aa_all_eligible_total.replace(/,/g, ''),
+    b_aa_all_grad_total: metric.b_aa_all_grad_total.replace(/,/g, ''),
+    b_aa_all_grad_rate: metric.b_aa_all_grad_rate,
+    b_aa_all_completers_total: metric.b_aa_all_completers_total.replace(/,/g, ''),
+    b_aa_all_completion_rate: metric.b_aa_all_completion_rate,
+    b_aa_female_eligible_total: metric.b_aa_female_eligible_total.replace(/,/g, ''),
+    b_aa_female_grad_total: metric.b_aa_female_grad_total.replace(/,/g, ''),
+    b_aa_female_grad_rate: metric.b_aa_female_grad_rate,
+    b_aa_female_completers_total: metric.b_aa_female_completers_total.replace(/,/g, ''),
+    b_aa_female_completion_rate: metric.b_aa_female_completion_rate,
+    b_aa_male_eligible_total: metric.b_aa_male_eligible_total.replace(/,/g, ''),
+    b_aa_male_grad_total: metric.b_aa_male_grad_total.replace(/,/g, ''),
+    b_aa_male_grad_rate: metric.b_aa_male_grad_rate,
+    b_aa_male_completers_total: metric.b_aa_male_completers_total.replace(/,/g, ''),
+    b_aa_male_completion_rate: metric.b_aa_male_completion_rate,
+    l_h_all_eligible_total: metric.l_h_all_eligible_total.replace(/,/g, ''),
+    l_h_all_grad_total: metric.l_h_all_grad_total.replace(/,/g, ''),
+    l_h_all_grad_rate: metric.l_h_all_grad_rate,
+    l_h_all_completers_total: metric.l_h_all_completers_total.replace(/,/g, ''),
+    l_h_all_completion_rate: metric.l_h_all_completion_rate,
+    l_h_female_eligible_total: metric.l_h_female_eligible_total.replace(/,/g, ''),
+    l_h_female_grad_total: metric.l_h_female_grad_total.replace(/,/g, ''),
+    l_h_female_grad_rate: metric.l_h_female_grad_rate,
+    l_h_female_completers_total: metric.l_h_female_completers_total.replace(/,/g, ''),
+    l_h_female_completion_rate: metric.l_h_female_completion_rate,
+    l_h_male_eligible_total: metric.l_h_male_eligible_total.replace(/,/g, ''),
+    l_h_male_grad_total: metric.l_h_male_grad_total.replace(/,/g, ''),
+    l_h_male_grad_rate: metric.l_h_male_grad_rate,
+    l_h_male_completers_total: metric.l_h_male_completers_total.replace(/,/g, ''),
+    l_h_male_completion_rate: metric.l_h_male_completion_rate,
+    w_all_eligible_total: metric.w_all_eligible_total.replace(/,/g, ''),
+    w_all_grad_total: metric.w_all_grad_total.replace(/,/g, ''),
+    w_all_grad_rate: metric.w_all_grad_rate,
+    w_all_completers_total: metric.w_all_completers_total.replace(/,/g, ''),
+    w_all_completion_rate: metric.w_all_completion_rate,
+    w_female_eligible_total: metric.w_female_eligible_total.replace(/,/g, ''),
+    w_female_grad_total: metric.w_female_grad_total.replace(/,/g, ''),
+    w_female_grad_rate: metric.w_female_grad_rate,
+    w_female_completers_total: metric.w_female_completers_total.replace(/,/g, ''),
+    w_female_completion_rate: metric.w_female_completion_rate,
+    w_male_eligible_total: metric.w_male_eligible_total.replace(/,/g, ''),
+    w_male_grad_total: metric.w_male_grad_total.replace(/,/g, ''),
+    w_male_grad_rate: metric.w_male_grad_rate,
+    w_male_completers_total: metric.w_male_completers_total.replace(/,/g, ''),
+    w_male_completion_rate: metric.w_male_completion_rate,
+    nh_opi_all_eligible_total: metric.nh_opi_all_eligible_total.replace(/,/g, ''),
+    nh_opi_all_grad_total: metric.nh_opi_all_grad_total.replace(/,/g, ''),
+    nh_opi_all_grad_rate: metric.nh_opi_all_grad_rate,
+    nh_opi_all_completers_total: metric.nh_opi_all_completers_total.replace(/,/g, ''),
+    nh_opi_all_completion_rate: metric.nh_opi_all_completion_rate,
+    nh_opi_female_eligible_total: metric.nh_opi_female_eligible_total.replace(/,/g, ''),
+    nh_opi_female_grad_total: metric.nh_opi_female_grad_total.replace(/,/g, ''),
+    nh_opi_female_grad_rate: metric.nh_opi_female_grad_rate,
+    nh_opi_female_completers_total: metric.nh_opi_female_completers_total.replace(/,/g, ''),
+    nh_opi_female_completion_rate: metric.nh_opi_female_completion_rate,
+    nh_opi_male_eligible_total: metric.nh_opi_male_eligible_total.replace(/,/g, ''),
+    nh_opi_male_grad_total: metric.nh_opi_male_grad_total.replace(/,/g, ''),
+    nh_opi_male_grad_rate: metric.nh_opi_male_grad_rate,
+    nh_opi_male_completers_total: metric.nh_opi_male_completers_total.replace(/,/g, ''),
+    nh_opi_male_completion_rate: metric.nh_opi_male_completion_rate,
+    multi_racial_all_eligible_total: metric.multi_racial_all_eligible_total.replace(/,/g, ''),
+    multi_racial_all_grad_total: metric.multi_racial_all_grad_total.replace(/,/g, ''),
+    multi_racial_all_grad_rate: metric.multi_racial_all_grad_rate,
+    multi_racial_all_completers_total: metric.multi_racial_all_completers_total.replace(/,/g, ''),
+    multi_racial_all_completion_rate: metric.multi_racial_all_completion_rate,
+    multi_racial_female_eligible_total: metric.multi_racial_female_eligible_total.replace(/,/g, ''),
+    multi_racial_female_grad_total: metric.multi_racial_female_grad_total.replace(/,/g, ''),
+    multi_racial_female_grad_rate: metric.multi_racial_female_grad_rate,
+    multi_racial_female_completers_total: metric.multi_racial_female_completers_total.replace(/,/g, ''),
+    multi_racial_female_completion_rate: metric.multi_racial_female_completion_rate,
+    multi_racial_male_eligible_total: metric.multi_racial_male_eligible_total.replace(/,/g, ''),
+    multi_racial_male_grad_total: metric.multi_racial_male_grad_total.replace(/,/g, ''),
+    multi_racial_male_grad_rate: metric.multi_racial_male_grad_rate,
+    multi_racial_male_completers_total: metric.multi_racial_male_completers_total.replace(/,/g, ''),
+    multi_racial_male_completion_rate: metric.multi_racial_male_completion_rate
+  })
+  .catch(error => console.log(`Error seeding grad by ethnicity and gender data: ${error}`));
 };
 
 exports.seed = function(knex, Promise) {
-  return knex('student_teacher_ratios').del()
+  return knex('school_graduation_completion_gender_ethnicity').del()
+    .then(() => knex('student_teacher_ratios').del())
     .then(() => knex('schools').del())
     .then(() => knex('districts').del())
     .then(() => knex('counties').del())
