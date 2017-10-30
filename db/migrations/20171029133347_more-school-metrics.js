@@ -175,7 +175,7 @@ exports.up = function(knex, Promise) {
       table.integer('gifted_talented_grad_total');
       table.decimal('gifted_talented_grad_rate', 4, 3);
       table.integer('gifted_talented_completers_total');
-      table.integer('gifted_talented_completion_rate');
+      table.decimal('gifted_talented_completion_rate', 4, 3);
       table.integer('school_id').unsigned();
       table.foreign('school_id').references('schools.id');
 
@@ -218,7 +218,7 @@ exports.up = function(knex, Promise) {
       table.decimal('evidence_based_reading_writing_mean_score', 4, 1);
       table.decimal('math_mean_score', 4, 1);
       table.decimal('overall_mean_score', 4, 1);
-      table.integer('participation_rate', 4, 3);
+      table.decimal('participation_rate', 4, 3);
       table.integer('valid_scores_prev_year');
       table.decimal('evidence_based_reading_writing_mean_score_prev_year', 4, 1);
       table.decimal('math_mean_score_prev_year', 4, 1);
