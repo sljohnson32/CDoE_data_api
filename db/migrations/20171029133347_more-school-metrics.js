@@ -175,7 +175,7 @@ exports.up = function(knex, Promise) {
       table.integer('gifted_talented_grad_total');
       table.decimal('gifted_talented_grad_rate', 4, 3);
       table.integer('gifted_talented_completers_total');
-      table.integer('gifted_talented_completion_rate');
+      table.decimal('gifted_talented_completion_rate', 4, 3);
       table.integer('school_id').unsigned();
       table.foreign('school_id').references('schools.id');
 

@@ -3,6 +3,7 @@ const countyData = require('../../data/ALL_counties_data');
 const districtData = require('../../data/ALL_districts_data');
 const studentTeacherRatioData = require('../../data/school_metrics/student_teacher_ratio');
 const gradGEData = require('../../data/school_metrics/school_graduation_completion_gender_ethnicity');
+const gradIPSTData = require('../../data/school_metrics/school_graduation_completion_ipst');
 
 const createCounty = (knex, county) => {
   return knex('counties').insert({
@@ -86,6 +87,16 @@ const createSchool = (knex, school) => {
     gradGEMetrics.forEach(metric => {
       metric.school_id = schoolID[0];
       metricPromises.push(createGradGEMetric(knex, metric))
+    });
+
+    //Generate Promises for grad rates by IPST
+    let gradIPSTMetrics = gradIPSTData.filter(obj => {
+      return obj.school_code == school.school_code;
+    });
+
+    gradIPSTMetrics.forEach(metric => {
+      metric.school_id = schoolID[0];
+      metricPromises.push(createGradIPSTMetric(knex, metric))
     });
 
     return Promise.all(metricPromises);
@@ -232,6 +243,50 @@ const createGradGEMetric = (knex, metric) => {
     multi_racial_male_completion_rate: metric.multi_racial_male_completion_rate
   })
   .catch(error => console.log(`Error seeding grad by ethnicity and gender data: ${error}`));
+};
+
+const createGradIPSTMetric = (knex, metric) => {
+
+  return knex('school_graduation_completion_ipst').insert({
+    school_id: metric.school_id,
+    school_year: metric.school_year,
+    disabled_eligible_total: metric.disabled_eligible_total.replace(/,/g, ''),
+    disabled_grad_total: metric.disabled_grad_total.replace(/,/g, ''),
+    disabled_grad_rate: metric.disabled_grad_rate,
+    disabled_completers_total: metric.disabled_completers_total.replace(/,/g, ''),
+    disabled_completion_rate: metric.disabled_completion_rate,
+    limited_english_proficient_eligible_total: metric.limited_english_proficient_eligible_total.replace(/,/g, ''),
+    limited_english_proficient_grad_total: metric.limited_english_proficient_grad_total.replace(/,/g, ''),
+    limited_english_proficient_grad_rate: metric.limited_english_proficient_grad_rate,
+    limited_english_proficient_completers_total: metric.limited_english_proficient_completers_total.replace(/,/g, ''),
+    limited_english_proficient_completion_rate: metric.limited_english_proficient_completion_rate,
+    econ_disadvant_eligible_total: metric.econ_disadvant_eligible_total.replace(/,/g, ''),
+    econ_disadvant_grad_total: metric.econ_disadvant_grad_total.replace(/,/g, ''),
+    econ_disadvant_grad_rate: metric.econ_disadvant_grad_rate,
+    econ_disadvant_completers_total: metric.econ_disadvant_completers_total.replace(/,/g, ''),
+    econ_disadvant_completion_rate: metric.econ_disadvant_completion_rate,
+    migrant_eligible_total: metric.migrant_eligible_total.replace(/,/g, ''),
+    migrant_grad_total: metric.migrant_grad_total.replace(/,/g, ''),
+    migrant_grad_rate: metric.migrant_grad_rate,
+    migrant_completers_total: metric.migrant_completers_total.replace(/,/g, ''),
+    migrant_completion_rate: metric.migrant_completion_rate,
+    title_one_eligible_total: metric.title_one_eligible_total.replace(/,/g, ''),
+    title_one_grad_total: metric.title_one_grad_total.replace(/,/g, ''),
+    title_one_grad_rate: metric.title_one_grad_rate,
+    title_one_completers_total: metric.title_one_completers_total.replace(/,/g, ''),
+    title_one_completion_rate: metric.title_one_completion_rate,
+    homeless_eligible_total: metric.homeless_eligible_total.replace(/,/g, ''),
+    homeless_grad_total: metric.homeless_grad_total.replace(/,/g, ''),
+    homeless_grad_rate: metric.homeless_grad_rate,
+    homeless_completers_total: metric.homeless_completers_total.replace(/,/g, ''),
+    homeless_completion_rate: metric.homeless_completion_rate,
+    gifted_talented_eligible_total: metric.gifted_talented_eligible_total.replace(/,/g, ''),
+    gifted_talented_grad_total: metric.gifted_talented_grad_total.replace(/,/g, ''),
+    gifted_talented_grad_rate: metric.gifted_talented_grad_rate,
+    gifted_talented_completers_total: metric.gifted_talented_completers_total.replace(/,/g, ''),
+    gifted_talented_completion_rate: metric.gifted_talented_completion_rate,
+  })
+  .catch(error => console.log(`Error seeding grad by IPST data: ${error}`));
 };
 
 exports.seed = function(knex, Promise) {
