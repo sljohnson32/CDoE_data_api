@@ -172,7 +172,7 @@ const createSchool = (knex, school) => {
 
 const createSTRMetric = (knex, metric) => {
 
-  return knex('student_teacher_ratios').insert({
+  return knex('school_student_teacher_ratios').insert({
     school_id: metric.school_id,
     school_year: metric.school_year,
     student_count: metric.student_count,
@@ -467,7 +467,7 @@ exports.seed = function(knex, Promise) {
     .then(() => knex('school_cmas_ela_math').del())
     .then(() => knex('school_graduation_completion_ipst').del())
     .then(() => knex('school_graduation_completion_gender_ethnicity').del())
-    .then(() => knex('student_teacher_ratios').del())
+    .then(() => knex('school_student_teacher_ratios').del())
     .then(() => knex('schools').del())
     .then(() => knex('districts').del())
     .then(() => knex('counties').del())

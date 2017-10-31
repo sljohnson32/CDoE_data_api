@@ -217,12 +217,12 @@ exports.up = function(knex, Promise) {
       table.integer('valid_scores_total');
       table.decimal('evidence_based_reading_writing_mean_score', 4, 1);
       table.decimal('math_mean_score', 4, 1);
-      table.decimal('overall_mean_score', 4, 1);
+      table.decimal('overall_mean_score', 5, 1);
       table.decimal('participation_rate', 4, 3);
       table.integer('valid_scores_prev_year');
       table.decimal('evidence_based_reading_writing_mean_score_prev_year', 4, 1);
       table.decimal('math_mean_score_prev_year', 4, 1);
-      table.decimal('overall_mean_score_prev_year', 4, 1);
+      table.decimal('overall_mean_score_prev_year', 5, 1);
       table.decimal('participation_rate_prev_year', 4, 3);
       table.decimal('mean_overall_score_change', 4, 1);
       table.integer('school_id').unsigned();
