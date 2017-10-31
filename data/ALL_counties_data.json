@@ -1,0 +1,262 @@
+[
+  {
+    "county_code": "01",
+    "county_name": "ADAMS"
+  },
+  {
+    "county_code": "02",
+    "county_name": "ALAMOSA"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE"
+  },
+  {
+    "county_code": "04",
+    "county_name": "ARCHULETA"
+  },
+  {
+    "county_code": "05",
+    "county_name": "BACA"
+  },
+  {
+    "county_code": "06",
+    "county_name": "BENT"
+  },
+  {
+    "county_code": "07",
+    "county_name": "BOULDER"
+  },
+  {
+    "county_code": "08",
+    "county_name": "CHAFFEE"
+  },
+  {
+    "county_code": "09",
+    "county_name": "CHEYENNE"
+  },
+  {
+    "county_code": "10",
+    "county_name": "CLEAR CREEK"
+  },
+  {
+    "county_code": "11",
+    "county_name": "CONEJOS"
+  },
+  {
+    "county_code": "12",
+    "county_name": "COSTILLA"
+  },
+  {
+    "county_code": "13",
+    "county_name": "CROWLEY"
+  },
+  {
+    "county_code": "14",
+    "county_name": "CUSTER"
+  },
+  {
+    "county_code": "15",
+    "county_name": "DELTA"
+  },
+  {
+    "county_code": "16",
+    "county_name": "DENVER"
+  },
+  {
+    "county_code": "17",
+    "county_name": "DOLORES"
+  },
+  {
+    "county_code": "18",
+    "county_name": "DOUGLAS"
+  },
+  {
+    "county_code": "19",
+    "county_name": "EAGLE"
+  },
+  {
+    "county_code": "20",
+    "county_name": "ELBERT"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO"
+  },
+  {
+    "county_code": "22",
+    "county_name": "FREMONT"
+  },
+  {
+    "county_code": "23",
+    "county_name": "GARFIELD"
+  },
+  {
+    "county_code": "24",
+    "county_name": "GILPIN"
+  },
+  {
+    "county_code": "25",
+    "county_name": "GRAND"
+  },
+  {
+    "county_code": "26",
+    "county_name": "GUNNISON"
+  },
+  {
+    "county_code": "27",
+    "county_name": "HINSDALE"
+  },
+  {
+    "county_code": "28",
+    "county_name": "HUERFANO"
+  },
+  {
+    "county_code": "29",
+    "county_name": "JACKSON"
+  },
+  {
+    "county_code": "30",
+    "county_name": "JEFFERSON"
+  },
+  {
+    "county_code": "31",
+    "county_name": "KIOWA"
+  },
+  {
+    "county_code": "32",
+    "county_name": "KIT CARSON"
+  },
+  {
+    "county_code": "33",
+    "county_name": "LAKE"
+  },
+  {
+    "county_code": "34",
+    "county_name": "LA PLATA"
+  },
+  {
+    "county_code": "35",
+    "county_name": "LARIMER"
+  },
+  {
+    "county_code": "36",
+    "county_name": "LAS ANIMAS"
+  },
+  {
+    "county_code": "37",
+    "county_name": "LINCOLN"
+  },
+  {
+    "county_code": "38",
+    "county_name": "LOGAN"
+  },
+  {
+    "county_code": "39",
+    "county_name": "MESA"
+  },
+  {
+    "county_code": "40",
+    "county_name": "MINERAL"
+  },
+  {
+    "county_code": "41",
+    "county_name": "MOFFAT"
+  },
+  {
+    "county_code": "42",
+    "county_name": "MONTEZUMA"
+  },
+  {
+    "county_code": "43",
+    "county_name": "MONTROSE"
+  },
+  {
+    "county_code": "44",
+    "county_name": "MORGAN"
+  },
+  {
+    "county_code": "45",
+    "county_name": "OTERO"
+  },
+  {
+    "county_code": "46",
+    "county_name": "OURAY"
+  },
+  {
+    "county_code": "47",
+    "county_name": "PARK"
+  },
+  {
+    "county_code": "48",
+    "county_name": "PHILLIPS"
+  },
+  {
+    "county_code": "49",
+    "county_name": "PITKIN"
+  },
+  {
+    "county_code": "50",
+    "county_name": "PROWERS"
+  },
+  {
+    "county_code": "51",
+    "county_name": "PUEBLO"
+  },
+  {
+    "county_code": "52",
+    "county_name": "RIO BLANCO"
+  },
+  {
+    "county_code": "53",
+    "county_name": "RIO GRANDE"
+  },
+  {
+    "county_code": "54",
+    "county_name": "ROUTT"
+  },
+  {
+    "county_code": "55",
+    "county_name": "SAGUACHE"
+  },
+  {
+    "county_code": "56",
+    "county_name": "SAN JUAN"
+  },
+  {
+    "county_code": "57",
+    "county_name": "SAN MIGUEL"
+  },
+  {
+    "county_code": "58",
+    "county_name": "SEDGWICK"
+  },
+  {
+    "county_code": "59",
+    "county_name": "SUMMIT"
+  },
+  {
+    "county_code": "60",
+    "county_name": "TELLER"
+  },
+  {
+    "county_code": "61",
+    "county_name": "WASHINGTON"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD"
+  },
+  {
+    "county_code": "63",
+    "county_name": "YUMA"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS"
+  },
+  {
+    "county_code": "98",
+    "county_name": "NONE"
+  }
+]

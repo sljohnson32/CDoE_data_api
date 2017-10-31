@@ -1,0 +1,1172 @@
+[
+  {
+    "county_code": "01",
+    "county_name": "ADAMS",
+    "district_code": "0010",
+    "district_name": "MAPLETON 1"
+  },
+  {
+    "county_code": "01",
+    "county_name": "ADAMS",
+    "district_code": "0020",
+    "district_name": "ADAMS 12 FIVE STAR SCHOOLS"
+  },
+  {
+    "county_code": "01",
+    "county_name": "ADAMS",
+    "district_code": "0030",
+    "district_name": "ADAMS COUNTY 14"
+  },
+  {
+    "county_code": "01",
+    "county_name": "ADAMS",
+    "district_code": "0040",
+    "district_name": "BRIGHTON 27J"
+  },
+  {
+    "county_code": "01",
+    "county_name": "ADAMS",
+    "district_code": "0050",
+    "district_name": "BENNETT 29J"
+  },
+  {
+    "county_code": "01",
+    "county_name": "ADAMS",
+    "district_code": "0060",
+    "district_name": "STRASBURG 31J"
+  },
+  {
+    "county_code": "01",
+    "county_name": "ADAMS",
+    "district_code": "0070",
+    "district_name": "WESTMINSTER 50"
+  },
+  {
+    "county_code": "02",
+    "county_name": "ALAMOSA",
+    "district_code": "0100",
+    "district_name": "ALAMOSA RE-11J"
+  },
+  {
+    "county_code": "02",
+    "county_name": "ALAMOSA",
+    "district_code": "0110",
+    "district_name": "SANGRE DE CRISTO RE-22J"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE",
+    "district_code": "0120",
+    "district_name": "ENGLEWOOD 1"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE",
+    "district_code": "0123",
+    "district_name": "SHERIDAN 2"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE",
+    "district_code": "0130",
+    "district_name": "CHERRY CREEK 5"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE",
+    "district_code": "0140",
+    "district_name": "LITTLETON 6"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE",
+    "district_code": "0170",
+    "district_name": "DEER TRAIL 26J"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE",
+    "district_code": "0180",
+    "district_name": "ADAMS-ARAPAHOE 28J"
+  },
+  {
+    "county_code": "03",
+    "county_name": "ARAPAHOE",
+    "district_code": "0190",
+    "district_name": "BYERS 32J"
+  },
+  {
+    "county_code": "04",
+    "county_name": "ARCHULETA",
+    "district_code": "0220",
+    "district_name": "ARCHULETA COUNTY 50 JT"
+  },
+  {
+    "county_code": "05",
+    "county_name": "BACA",
+    "district_code": "0230",
+    "district_name": "WALSH RE-1"
+  },
+  {
+    "county_code": "05",
+    "county_name": "BACA",
+    "district_code": "0240",
+    "district_name": "PRITCHETT RE-3"
+  },
+  {
+    "county_code": "05",
+    "county_name": "BACA",
+    "district_code": "0250",
+    "district_name": "SPRINGFIELD RE-4"
+  },
+  {
+    "county_code": "05",
+    "county_name": "BACA",
+    "district_code": "0260",
+    "district_name": "VILAS RE-5"
+  },
+  {
+    "county_code": "05",
+    "county_name": "BACA",
+    "district_code": "0270",
+    "district_name": "CAMPO RE-6"
+  },
+  {
+    "county_code": "06",
+    "county_name": "BENT",
+    "district_code": "0290",
+    "district_name": "LAS ANIMAS RE-1"
+  },
+  {
+    "county_code": "06",
+    "county_name": "BENT",
+    "district_code": "0310",
+    "district_name": "MC CLAVE RE-2"
+  },
+  {
+    "county_code": "07",
+    "county_name": "BOULDER",
+    "district_code": "0470",
+    "district_name": "ST VRAIN VALLEY RE 1J"
+  },
+  {
+    "county_code": "07",
+    "county_name": "BOULDER",
+    "district_code": "0480",
+    "district_name": "BOULDER VALLEY RE 2"
+  },
+  {
+    "county_code": "08",
+    "county_name": "CHAFFEE",
+    "district_code": "0490",
+    "district_name": "BUENA VISTA R-31"
+  },
+  {
+    "county_code": "08",
+    "county_name": "CHAFFEE",
+    "district_code": "0500",
+    "district_name": "SALIDA R-32"
+  },
+  {
+    "county_code": "09",
+    "county_name": "CHEYENNE",
+    "district_code": "0510",
+    "district_name": "KIT CARSON R-1"
+  },
+  {
+    "county_code": "09",
+    "county_name": "CHEYENNE",
+    "district_code": "0520",
+    "district_name": "CHEYENNE COUNTY RE-5"
+  },
+  {
+    "county_code": "10",
+    "county_name": "CLEAR CREEK",
+    "district_code": "0540",
+    "district_name": "CLEAR CREEK RE-1"
+  },
+  {
+    "county_code": "11",
+    "county_name": "CONEJOS",
+    "district_code": "0550",
+    "district_name": "NORTH CONEJOS RE-1J"
+  },
+  {
+    "county_code": "11",
+    "county_name": "CONEJOS",
+    "district_code": "0560",
+    "district_name": "SANFORD 6J"
+  },
+  {
+    "county_code": "11",
+    "county_name": "CONEJOS",
+    "district_code": "0580",
+    "district_name": "SOUTH CONEJOS RE-10"
+  },
+  {
+    "county_code": "12",
+    "county_name": "COSTILLA",
+    "district_code": "0640",
+    "district_name": "CENTENNIAL R-1"
+  },
+  {
+    "county_code": "12",
+    "county_name": "COSTILLA",
+    "district_code": "0740",
+    "district_name": "SIERRA GRANDE R-30"
+  },
+  {
+    "county_code": "13",
+    "county_name": "CROWLEY",
+    "district_code": "0770",
+    "district_name": "CROWLEY COUNTY RE-1-J"
+  },
+  {
+    "county_code": "14",
+    "county_name": "CUSTER",
+    "district_code": "0860",
+    "district_name": "CUSTER COUNTY SCHOOL DISTRICT C-1"
+  },
+  {
+    "county_code": "15",
+    "county_name": "DELTA",
+    "district_code": "0870",
+    "district_name": "DELTA COUNTY 50(J)"
+  },
+  {
+    "county_code": "16",
+    "county_name": "DENVER",
+    "district_code": "0880",
+    "district_name": "DENVER COUNTY 1"
+  },
+  {
+    "county_code": "17",
+    "county_name": "DOLORES",
+    "district_code": "0890",
+    "district_name": "DOLORES COUNTY RE NO.2"
+  },
+  {
+    "county_code": "18",
+    "county_name": "DOUGLAS",
+    "district_code": "0900",
+    "district_name": "DOUGLAS COUNTY RE 1"
+  },
+  {
+    "county_code": "19",
+    "county_name": "EAGLE",
+    "district_code": "0910",
+    "district_name": "EAGLE COUNTY RE 50"
+  },
+  {
+    "county_code": "20",
+    "county_name": "ELBERT",
+    "district_code": "0920",
+    "district_name": "ELIZABETH C-1"
+  },
+  {
+    "county_code": "20",
+    "county_name": "ELBERT",
+    "district_code": "0930",
+    "district_name": "KIOWA C-2"
+  },
+  {
+    "county_code": "20",
+    "county_name": "ELBERT",
+    "district_code": "0940",
+    "district_name": "BIG SANDY 100J"
+  },
+  {
+    "county_code": "20",
+    "county_name": "ELBERT",
+    "district_code": "0950",
+    "district_name": "ELBERT 200"
+  },
+  {
+    "county_code": "20",
+    "county_name": "ELBERT",
+    "district_code": "0960",
+    "district_name": "AGATE 300"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "0970",
+    "district_name": "CALHAN RJ-1"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "0980",
+    "district_name": "HARRISON 2"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "0990",
+    "district_name": "WIDEFIELD 3"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1000",
+    "district_name": "FOUNTAIN 8"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1010",
+    "district_name": "COLORADO SPRINGS 11"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1020",
+    "district_name": "CHEYENNE MOUNTAIN 12"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1030",
+    "district_name": "MANITOU SPRINGS 14"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1040",
+    "district_name": "ACADEMY 20"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1050",
+    "district_name": "ELLICOTT 22"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1060",
+    "district_name": "PEYTON 23 JT"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1070",
+    "district_name": "HANOVER 28"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1080",
+    "district_name": "LEWIS-PALMER 38"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1110",
+    "district_name": "FALCON 49"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1120",
+    "district_name": "EDISON 54 JT"
+  },
+  {
+    "county_code": "21",
+    "county_name": "EL PASO",
+    "district_code": "1130",
+    "district_name": "MIAMI/YODER 60 JT"
+  },
+  {
+    "county_code": "22",
+    "county_name": "FREMONT",
+    "district_code": "1140",
+    "district_name": "CANON CITY RE-1"
+  },
+  {
+    "county_code": "22",
+    "county_name": "FREMONT",
+    "district_code": "1150",
+    "district_name": "FREMONT RE-2"
+  },
+  {
+    "county_code": "22",
+    "county_name": "FREMONT",
+    "district_code": "1160",
+    "district_name": "COTOPAXI RE-3"
+  },
+  {
+    "county_code": "23",
+    "county_name": "GARFIELD",
+    "district_code": "1180",
+    "district_name": "ROARING FORK RE-1"
+  },
+  {
+    "county_code": "23",
+    "county_name": "GARFIELD",
+    "district_code": "1195",
+    "district_name": "GARFIELD RE-2"
+  },
+  {
+    "county_code": "23",
+    "county_name": "GARFIELD",
+    "district_code": "1220",
+    "district_name": "GARFIELD 16"
+  },
+  {
+    "county_code": "24",
+    "county_name": "GILPIN",
+    "district_code": "1330",
+    "district_name": "GILPIN COUNTY RE-1"
+  },
+  {
+    "county_code": "25",
+    "county_name": "GRAND",
+    "district_code": "1340",
+    "district_name": "WEST GRAND 1-JT."
+  },
+  {
+    "county_code": "25",
+    "county_name": "GRAND",
+    "district_code": "1350",
+    "district_name": "EAST GRAND 2"
+  },
+  {
+    "county_code": "26",
+    "county_name": "GUNNISON",
+    "district_code": "1360",
+    "district_name": "GUNNISON WATERSHED RE1J"
+  },
+  {
+    "county_code": "27",
+    "county_name": "HINSDALE",
+    "district_code": "1380",
+    "district_name": "HINSDALE COUNTY RE 1"
+  },
+  {
+    "county_code": "28",
+    "county_name": "HUERFANO",
+    "district_code": "1390",
+    "district_name": "HUERFANO RE-1"
+  },
+  {
+    "county_code": "28",
+    "county_name": "HUERFANO",
+    "district_code": "1400",
+    "district_name": "LA VETA RE-2"
+  },
+  {
+    "county_code": "29",
+    "county_name": "JACKSON",
+    "district_code": "1410",
+    "district_name": "NORTH PARK R-1"
+  },
+  {
+    "county_code": "30",
+    "county_name": "JEFFERSON",
+    "district_code": "1420",
+    "district_name": "JEFFERSON COUNTY R-1"
+  },
+  {
+    "county_code": "31",
+    "county_name": "KIOWA",
+    "district_code": "1430",
+    "district_name": "EADS RE-1"
+  },
+  {
+    "county_code": "31",
+    "county_name": "KIOWA",
+    "district_code": "1440",
+    "district_name": "PLAINVIEW RE-2"
+  },
+  {
+    "county_code": "32",
+    "county_name": "KIT CARSON",
+    "district_code": "1450",
+    "district_name": "ARRIBA-FLAGLER C-20"
+  },
+  {
+    "county_code": "32",
+    "county_name": "KIT CARSON",
+    "district_code": "1460",
+    "district_name": "HI-PLAINS R-23"
+  },
+  {
+    "county_code": "32",
+    "county_name": "KIT CARSON",
+    "district_code": "1480",
+    "district_name": "STRATTON R-4"
+  },
+  {
+    "county_code": "32",
+    "county_name": "KIT CARSON",
+    "district_code": "1490",
+    "district_name": "BETHUNE R-5"
+  },
+  {
+    "county_code": "32",
+    "county_name": "KIT CARSON",
+    "district_code": "1500",
+    "district_name": "BURLINGTON RE-6J"
+  },
+  {
+    "county_code": "33",
+    "county_name": "LAKE",
+    "district_code": "1510",
+    "district_name": "LAKE COUNTY R-1"
+  },
+  {
+    "county_code": "34",
+    "county_name": "LA PLATA",
+    "district_code": "1520",
+    "district_name": "DURANGO 9-R"
+  },
+  {
+    "county_code": "34",
+    "county_name": "LA PLATA",
+    "district_code": "1530",
+    "district_name": "BAYFIELD 10 JT-R"
+  },
+  {
+    "county_code": "34",
+    "county_name": "LA PLATA",
+    "district_code": "1540",
+    "district_name": "IGNACIO 11 JT"
+  },
+  {
+    "county_code": "35",
+    "county_name": "LARIMER",
+    "district_code": "1550",
+    "district_name": "POUDRE R-1"
+  },
+  {
+    "county_code": "35",
+    "county_name": "LARIMER",
+    "district_code": "1560",
+    "district_name": "THOMPSON R2-J"
+  },
+  {
+    "county_code": "35",
+    "county_name": "LARIMER",
+    "district_code": "1570",
+    "district_name": "ESTES PARK R-3"
+  },
+  {
+    "county_code": "36",
+    "county_name": "LAS ANIMAS",
+    "district_code": "1580",
+    "district_name": "TRINIDAD 1"
+  },
+  {
+    "county_code": "36",
+    "county_name": "LAS ANIMAS",
+    "district_code": "1590",
+    "district_name": "PRIMERO REORGANIZED 2"
+  },
+  {
+    "county_code": "36",
+    "county_name": "LAS ANIMAS",
+    "district_code": "1600",
+    "district_name": "HOEHNE REORGANIZED 3"
+  },
+  {
+    "county_code": "36",
+    "county_name": "LAS ANIMAS",
+    "district_code": "1620",
+    "district_name": "AGUILAR REORGANIZED 6"
+  },
+  {
+    "county_code": "36",
+    "county_name": "LAS ANIMAS",
+    "district_code": "1750",
+    "district_name": "BRANSON REORGANIZED 82"
+  },
+  {
+    "county_code": "36",
+    "county_name": "LAS ANIMAS",
+    "district_code": "1760",
+    "district_name": "KIM REORGANIZED 88"
+  },
+  {
+    "county_code": "37",
+    "county_name": "LINCOLN",
+    "district_code": "1780",
+    "district_name": "GENOA-HUGO C113"
+  },
+  {
+    "county_code": "37",
+    "county_name": "LINCOLN",
+    "district_code": "1790",
+    "district_name": "LIMON RE-4J"
+  },
+  {
+    "county_code": "37",
+    "county_name": "LINCOLN",
+    "district_code": "1810",
+    "district_name": "KARVAL RE-23"
+  },
+  {
+    "county_code": "38",
+    "county_name": "LOGAN",
+    "district_code": "1828",
+    "district_name": "VALLEY RE-1"
+  },
+  {
+    "county_code": "38",
+    "county_name": "LOGAN",
+    "district_code": "1850",
+    "district_name": "FRENCHMAN RE-3"
+  },
+  {
+    "county_code": "38",
+    "county_name": "LOGAN",
+    "district_code": "1860",
+    "district_name": "BUFFALO RE-4J"
+  },
+  {
+    "county_code": "38",
+    "county_name": "LOGAN",
+    "district_code": "1870",
+    "district_name": "PLATEAU RE-5"
+  },
+  {
+    "county_code": "39",
+    "county_name": "MESA",
+    "district_code": "1980",
+    "district_name": "DE BEQUE 49JT"
+  },
+  {
+    "county_code": "39",
+    "county_name": "MESA",
+    "district_code": "1990",
+    "district_name": "PLATEAU VALLEY 50"
+  },
+  {
+    "county_code": "39",
+    "county_name": "MESA",
+    "district_code": "2000",
+    "district_name": "MESA COUNTY VALLEY 51"
+  },
+  {
+    "county_code": "40",
+    "county_name": "MINERAL",
+    "district_code": "2010",
+    "district_name": "CREEDE SCHOOL DISTRICT"
+  },
+  {
+    "county_code": "41",
+    "county_name": "MOFFAT",
+    "district_code": "2020",
+    "district_name": "MOFFAT COUNTY RE:NO 1"
+  },
+  {
+    "county_code": "42",
+    "county_name": "MONTEZUMA",
+    "district_code": "2035",
+    "district_name": "MONTEZUMA-CORTEZ RE-1"
+  },
+  {
+    "county_code": "42",
+    "county_name": "MONTEZUMA",
+    "district_code": "2055",
+    "district_name": "DOLORES RE-4A"
+  },
+  {
+    "county_code": "42",
+    "county_name": "MONTEZUMA",
+    "district_code": "2070",
+    "district_name": "MANCOS RE-6"
+  },
+  {
+    "county_code": "43",
+    "county_name": "MONTROSE",
+    "district_code": "2180",
+    "district_name": "MONTROSE COUNTY RE-1J"
+  },
+  {
+    "county_code": "43",
+    "county_name": "MONTROSE",
+    "district_code": "2190",
+    "district_name": "WEST END RE-2"
+  },
+  {
+    "county_code": "44",
+    "county_name": "MORGAN",
+    "district_code": "2395",
+    "district_name": "BRUSH RE-2(J)"
+  },
+  {
+    "county_code": "44",
+    "county_name": "MORGAN",
+    "district_code": "2405",
+    "district_name": "FORT MORGAN RE-3"
+  },
+  {
+    "county_code": "44",
+    "county_name": "MORGAN",
+    "district_code": "2505",
+    "district_name": "WELDON VALLEY RE-20(J)"
+  },
+  {
+    "county_code": "44",
+    "county_name": "MORGAN",
+    "district_code": "2515",
+    "district_name": "WIGGINS RE-50(J)"
+  },
+  {
+    "county_code": "45",
+    "county_name": "OTERO",
+    "district_code": "2520",
+    "district_name": "EAST OTERO R-1"
+  },
+  {
+    "county_code": "45",
+    "county_name": "OTERO",
+    "district_code": "2530",
+    "district_name": "ROCKY FORD R-2"
+  },
+  {
+    "county_code": "45",
+    "county_name": "OTERO",
+    "district_code": "2535",
+    "district_name": "MANZANOLA 3J"
+  },
+  {
+    "county_code": "45",
+    "county_name": "OTERO",
+    "district_code": "2540",
+    "district_name": "FOWLER R-4J"
+  },
+  {
+    "county_code": "45",
+    "county_name": "OTERO",
+    "district_code": "2560",
+    "district_name": "CHERAW 31"
+  },
+  {
+    "county_code": "45",
+    "county_name": "OTERO",
+    "district_code": "2570",
+    "district_name": "SWINK 33"
+  },
+  {
+    "county_code": "46",
+    "county_name": "OURAY",
+    "district_code": "2580",
+    "district_name": "OURAY R-1"
+  },
+  {
+    "county_code": "46",
+    "county_name": "OURAY",
+    "district_code": "2590",
+    "district_name": "RIDGWAY R-2"
+  },
+  {
+    "county_code": "47",
+    "county_name": "PARK",
+    "district_code": "2600",
+    "district_name": "PLATTE CANYON 1"
+  },
+  {
+    "county_code": "47",
+    "county_name": "PARK",
+    "district_code": "2610",
+    "district_name": "PARK COUNTY RE-2"
+  },
+  {
+    "county_code": "48",
+    "county_name": "PHILLIPS",
+    "district_code": "2620",
+    "district_name": "HOLYOKE RE-1J"
+  },
+  {
+    "county_code": "48",
+    "county_name": "PHILLIPS",
+    "district_code": "2630",
+    "district_name": "HAXTUN RE-2J"
+  },
+  {
+    "county_code": "49",
+    "county_name": "PITKIN",
+    "district_code": "2640",
+    "district_name": "ASPEN 1"
+  },
+  {
+    "county_code": "50",
+    "county_name": "PROWERS",
+    "district_code": "2650",
+    "district_name": "GRANADA RE-1"
+  },
+  {
+    "county_code": "50",
+    "county_name": "PROWERS",
+    "district_code": "2660",
+    "district_name": "LAMAR RE-2"
+  },
+  {
+    "county_code": "50",
+    "county_name": "PROWERS",
+    "district_code": "2670",
+    "district_name": "HOLLY RE-3"
+  },
+  {
+    "county_code": "50",
+    "county_name": "PROWERS",
+    "district_code": "2680",
+    "district_name": "WILEY RE-13 JT"
+  },
+  {
+    "county_code": "51",
+    "county_name": "PUEBLO",
+    "district_code": "2690",
+    "district_name": "PUEBLO CITY 60"
+  },
+  {
+    "county_code": "51",
+    "county_name": "PUEBLO",
+    "district_code": "2700",
+    "district_name": "PUEBLO COUNTY 70"
+  },
+  {
+    "county_code": "52",
+    "county_name": "RIO BLANCO",
+    "district_code": "2710",
+    "district_name": "MEEKER RE1"
+  },
+  {
+    "county_code": "52",
+    "county_name": "RIO BLANCO",
+    "district_code": "2720",
+    "district_name": "RANGELY RE-4"
+  },
+  {
+    "county_code": "53",
+    "county_name": "RIO GRANDE",
+    "district_code": "2730",
+    "district_name": "DEL NORTE C-7"
+  },
+  {
+    "county_code": "53",
+    "county_name": "RIO GRANDE",
+    "district_code": "2740",
+    "district_name": "MONTE VISTA C-8"
+  },
+  {
+    "county_code": "53",
+    "county_name": "RIO GRANDE",
+    "district_code": "2750",
+    "district_name": "SARGENT RE-33J"
+  },
+  {
+    "county_code": "54",
+    "county_name": "ROUTT",
+    "district_code": "2760",
+    "district_name": "HAYDEN RE-1"
+  },
+  {
+    "county_code": "54",
+    "county_name": "ROUTT",
+    "district_code": "2770",
+    "district_name": "STEAMBOAT SPRINGS RE-2"
+  },
+  {
+    "county_code": "54",
+    "county_name": "ROUTT",
+    "district_code": "2780",
+    "district_name": "SOUTH ROUTT RE 3"
+  },
+  {
+    "county_code": "55",
+    "county_name": "SAGUACHE",
+    "district_code": "2790",
+    "district_name": "MOUNTAIN VALLEY RE 1"
+  },
+  {
+    "county_code": "55",
+    "county_name": "SAGUACHE",
+    "district_code": "2800",
+    "district_name": "MOFFAT 2"
+  },
+  {
+    "county_code": "55",
+    "county_name": "SAGUACHE",
+    "district_code": "2810",
+    "district_name": "CENTER 26 JT"
+  },
+  {
+    "county_code": "56",
+    "county_name": "SAN JUAN",
+    "district_code": "2820",
+    "district_name": "SILVERTON 1"
+  },
+  {
+    "county_code": "57",
+    "county_name": "SAN MIGUEL",
+    "district_code": "2830",
+    "district_name": "TELLURIDE R-1"
+  },
+  {
+    "county_code": "57",
+    "county_name": "SAN MIGUEL",
+    "district_code": "2840",
+    "district_name": "NORWOOD R-2J"
+  },
+  {
+    "county_code": "58",
+    "county_name": "SEDGWICK",
+    "district_code": "2862",
+    "district_name": "JULESBURG RE-1"
+  },
+  {
+    "county_code": "58",
+    "county_name": "SEDGWICK",
+    "district_code": "2865",
+    "district_name": "PLATTE VALLEY RE-3"
+  },
+  {
+    "county_code": "59",
+    "county_name": "SUMMIT",
+    "district_code": "3000",
+    "district_name": "SUMMIT RE-1"
+  },
+  {
+    "county_code": "60",
+    "county_name": "TELLER",
+    "district_code": "3010",
+    "district_name": "CRIPPLE CREEK-VICTOR RE-1"
+  },
+  {
+    "county_code": "60",
+    "county_name": "TELLER",
+    "district_code": "3020",
+    "district_name": "WOODLAND PARK RE-2"
+  },
+  {
+    "county_code": "61",
+    "county_name": "WASHINGTON",
+    "district_code": "3030",
+    "district_name": "AKRON R-1"
+  },
+  {
+    "county_code": "61",
+    "county_name": "WASHINGTON",
+    "district_code": "3040",
+    "district_name": "ARICKAREE R-2"
+  },
+  {
+    "county_code": "61",
+    "county_name": "WASHINGTON",
+    "district_code": "3050",
+    "district_name": "OTIS R-3"
+  },
+  {
+    "county_code": "61",
+    "county_name": "WASHINGTON",
+    "district_code": "3060",
+    "district_name": "LONE STAR 101"
+  },
+  {
+    "county_code": "61",
+    "county_name": "WASHINGTON",
+    "district_code": "3070",
+    "district_name": "WOODLIN R-104"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3080",
+    "district_name": "WELD COUNTY RE-1"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3085",
+    "district_name": "EATON RE-2"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3090",
+    "district_name": "KEENESBURG RE-3(J)"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3100",
+    "district_name": "WINDSOR RE-4"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3110",
+    "district_name": "JOHNSTOWN-MILLIKEN RE-5J"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3120",
+    "district_name": "GREELEY 6"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3130",
+    "district_name": "PLATTE VALLEY RE-7"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3140",
+    "district_name": "WELD COUNTY S/D RE-8"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3145",
+    "district_name": "AULT-HIGHLAND RE-9"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3146",
+    "district_name": "BRIGGSDALE RE-10"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3147",
+    "district_name": "PRAIRIE RE-11"
+  },
+  {
+    "county_code": "62",
+    "county_name": "WELD",
+    "district_code": "3148",
+    "district_name": "PAWNEE RE-12"
+  },
+  {
+    "county_code": "63",
+    "county_name": "YUMA",
+    "district_code": "3200",
+    "district_name": "YUMA 1"
+  },
+  {
+    "county_code": "63",
+    "county_name": "YUMA",
+    "district_code": "3210",
+    "district_name": "WRAY RD-2"
+  },
+  {
+    "county_code": "63",
+    "county_name": "YUMA",
+    "district_code": "3220",
+    "district_name": "IDALIA RJ-3"
+  },
+  {
+    "county_code": "63",
+    "county_name": "YUMA",
+    "district_code": "3230",
+    "district_name": "LIBERTY J-4"
+  },
+  {
+    "county_code": "98",
+    "county_name": "NONE",
+    "district_code": "8001",
+    "district_name": "CHARTER SCHOOL INSTITUTE"
+  },
+  {
+    "county_code": "98",
+    "county_name": "NONE",
+    "district_code": "9000",
+    "district_name": "COLORADO SCHOOL FOR THE DEAF AND BLIND"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9025",
+    "district_name": "EAST CENTRAL BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9030",
+    "district_name": "MOUNTAIN BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9035",
+    "district_name": "CENTENNIAL BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9040",
+    "district_name": "NORTHEAST BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9045",
+    "district_name": "PIKES PEAK BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9050",
+    "district_name": "SAN JUAN BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9055",
+    "district_name": "SAN LUIS VALLEY BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9060",
+    "district_name": "SOUTH CENTRAL BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9075",
+    "district_name": "SOUTHEASTERN BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9125",
+    "district_name": "RIO BLANCO BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9130",
+    "district_name": "EXPEDITIONARY BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9145",
+    "district_name": "UNCOMPAHGRE BOCS"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9150",
+    "district_name": "SANTA FE TRAIL BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9165",
+    "district_name": "UTE PASS BOCES"
+  },
+  {
+    "county_code": "90",
+    "county_name": "COLORADO BOCS",
+    "district_code": "9170",
+    "district_name": "COLORADO DIGITAL BOCES"
+  }
+]
