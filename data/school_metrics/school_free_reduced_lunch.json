@@ -2,7 +2,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -152,7 +152,7 @@
   {
     "school_code": "1020",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -350,7 +350,7 @@
   {
     "school_code": "6845",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -542,7 +542,7 @@
   {
     "school_code": "1560",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -566,7 +566,7 @@
   {
     "school_code": "4034",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "N/A"
   },
   {
@@ -668,7 +668,7 @@
   {
     "school_code": "0763",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -692,7 +692,7 @@
   {
     "school_code": "7133",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -716,7 +716,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -1058,7 +1058,7 @@
   {
     "school_code": "1574",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -1220,13 +1220,13 @@
   {
     "school_code": "6367",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "6475",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -1496,7 +1496,7 @@
   {
     "school_code": "0001",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
@@ -1892,7 +1892,7 @@
   {
     "school_code": "3362",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -1946,13 +1946,13 @@
   {
     "school_code": "7176",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
     "school_code": "7180",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -1970,25 +1970,25 @@
   {
     "school_code": "9090",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
     "school_code": "9100",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
     "school_code": "1248",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
     "school_code": "1252",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
@@ -2012,7 +2012,7 @@
   {
     "school_code": "4495",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2306,7 +2306,7 @@
   {
     "school_code": "7565",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2372,7 +2372,7 @@
   {
     "school_code": "0866",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2396,7 +2396,7 @@
   {
     "school_code": "0930",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2516,13 +2516,13 @@
   {
     "school_code": "3488",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "3499",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
@@ -2540,7 +2540,7 @@
   {
     "school_code": "4386",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2594,7 +2594,7 @@
   {
     "school_code": "5838",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2672,7 +2672,7 @@
   {
     "school_code": "8387",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2720,13 +2720,13 @@
   {
     "school_code": "1554",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "4085",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -2750,7 +2750,7 @@
   {
     "school_code": "7643",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -2834,7 +2834,7 @@
   {
     "school_code": "6339",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -2918,7 +2918,7 @@
   {
     "school_code": "0093",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
@@ -2948,13 +2948,13 @@
   {
     "school_code": "1980",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "2152",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -3008,7 +3008,7 @@
   {
     "school_code": "4234",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -3044,7 +3044,7 @@
   {
     "school_code": "0040",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "75%-100%"
   },
   {
@@ -3230,7 +3230,7 @@
   {
     "school_code": "2027",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4256,7 +4256,7 @@
   {
     "school_code": "0050",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "75%-100%"
   },
   {
@@ -4292,7 +4292,7 @@
   {
     "school_code": "0201",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4346,7 +4346,7 @@
   {
     "school_code": "1270",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4370,7 +4370,7 @@
   {
     "school_code": "1509",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4382,13 +4382,13 @@
   {
     "school_code": "1555",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "1578",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -4400,7 +4400,7 @@
   {
     "school_code": "1873",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4460,7 +4460,7 @@
   {
     "school_code": "2338",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4478,7 +4478,7 @@
   {
     "school_code": "2953",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4538,7 +4538,7 @@
   {
     "school_code": "3968",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4586,7 +4586,7 @@
   {
     "school_code": "5405",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4694,7 +4694,7 @@
   {
     "school_code": "7047",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4718,7 +4718,7 @@
   {
     "school_code": "7242",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4796,7 +4796,7 @@
   {
     "school_code": "8853",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4808,7 +4808,7 @@
   {
     "school_code": "9397",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4862,7 +4862,7 @@
   {
     "school_code": "2340",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4916,13 +4916,13 @@
   {
     "school_code": "9061",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "9701",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4952,7 +4952,7 @@
   {
     "school_code": "7300",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -4964,7 +4964,7 @@
   {
     "school_code": "7924",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -5024,7 +5024,7 @@
   {
     "school_code": "0044",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -5222,7 +5222,7 @@
   {
     "school_code": "5033",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -5318,7 +5318,7 @@
   {
     "school_code": "2037",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -5720,7 +5720,7 @@
   {
     "school_code": "1586",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -5828,7 +5828,7 @@
   {
     "school_code": "0110",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -5846,7 +5846,7 @@
   {
     "school_code": "1033",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6038,13 +6038,13 @@
   {
     "school_code": "1346",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "6626",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -6128,7 +6128,7 @@
   {
     "school_code": "7165",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6200,7 +6200,7 @@
   {
     "school_code": "6653",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6212,7 +6212,7 @@
   {
     "school_code": "6821",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6278,7 +6278,7 @@
   {
     "school_code": "2504",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "N/A"
   },
   {
@@ -6290,7 +6290,7 @@
   {
     "school_code": "2523",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6314,7 +6314,7 @@
   {
     "school_code": "0419",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -6644,7 +6644,7 @@
   {
     "school_code": "5577",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -6692,7 +6692,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6782,13 +6782,13 @@
   {
     "school_code": "0779",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "0950",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6800,7 +6800,7 @@
   {
     "school_code": "0952",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -6860,7 +6860,7 @@
   {
     "school_code": "1869",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7022,7 +7022,7 @@
   {
     "school_code": "3250",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7238,7 +7238,7 @@
   {
     "school_code": "5758",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7388,7 +7388,7 @@
   {
     "school_code": "7238",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7406,7 +7406,7 @@
   {
     "school_code": "7462",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7532,7 +7532,7 @@
   {
     "school_code": "8458",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7580,13 +7580,13 @@
   {
     "school_code": "9234",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "9245",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7622,7 +7622,7 @@
   {
     "school_code": "9427",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7682,7 +7682,7 @@
   {
     "school_code": "2332",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -7772,7 +7772,7 @@
   {
     "school_code": "8804",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7784,7 +7784,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7802,7 +7802,7 @@
   {
     "school_code": "2097",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7904,7 +7904,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -7994,7 +7994,7 @@
   {
     "school_code": "3242",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -8066,7 +8066,7 @@
   {
     "school_code": "5234",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -8174,7 +8174,7 @@
   {
     "school_code": "8318",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -8432,7 +8432,7 @@
   {
     "school_code": "2788",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -8522,7 +8522,7 @@
   {
     "school_code": "4690",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
@@ -8558,7 +8558,7 @@
   {
     "school_code": "4506",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -8654,7 +8654,7 @@
   {
     "school_code": "3582",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -8780,7 +8780,7 @@
   {
     "school_code": "3350",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -8804,7 +8804,7 @@
   {
     "school_code": "4084",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -8978,7 +8978,7 @@
   {
     "school_code": "5656",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -9050,7 +9050,7 @@
   {
     "school_code": "7082",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -9416,13 +9416,13 @@
   {
     "school_code": "6598",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "6600",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -9494,7 +9494,7 @@
   {
     "school_code": "2686",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -9524,7 +9524,7 @@
   {
     "school_code": "0042",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -9548,7 +9548,7 @@
   {
     "school_code": "0447",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -9632,7 +9632,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -9782,7 +9782,7 @@
   {
     "school_code": "6399",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -10010,7 +10010,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "N/A"
   },
   {
@@ -10064,7 +10064,7 @@
   {
     "school_code": "6520",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -10112,7 +10112,7 @@
   {
     "school_code": "6363",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -10142,7 +10142,7 @@
   {
     "school_code": "9757",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -10160,7 +10160,7 @@
   {
     "school_code": "8119",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -10190,13 +10190,13 @@
   {
     "school_code": "0051",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "75%-100%"
   },
   {
     "school_code": "1368",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
@@ -10226,13 +10226,13 @@
   {
     "school_code": "7902",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "50%-75%"
   },
   {
     "school_code": "7904",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -10442,7 +10442,7 @@
   {
     "school_code": "5258",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -10562,7 +10562,7 @@
   {
     "school_code": "0000",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "N/A"
   },
   {
@@ -11012,19 +11012,19 @@
   {
     "school_code": "1607",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "3997",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "8121",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -11138,7 +11138,7 @@
   {
     "school_code": "2196",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -11168,13 +11168,13 @@
   {
     "school_code": "3513",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "75%-100%"
   },
   {
     "school_code": "4277",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
@@ -11192,19 +11192,19 @@
   {
     "school_code": "5147",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "25%-50%"
   },
   {
     "school_code": "5423",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
     "school_code": "5453",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "0%-25%"
   },
   {
@@ -11228,7 +11228,7 @@
   {
     "school_code": "6266",
     "school_year": "2016-2017",
-    "frl_rate": "",
+    "frl_rate": "0",
     "frl_range": "75%-100%"
   },
   {

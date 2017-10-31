@@ -414,7 +414,7 @@ const createFRLMetric = (knex, metric) => {
     frl_rate: metric.frl_rate,
     frl_range: metric.frl_range
   })
-  .catch(error => console.log(`Error seeding grad by IPST data: ${error}`));
+  .catch(error => console.log(`Error seeding FRL data: ${error}`));
 };
 
 const createAttendanceMetric = (knex, metric) => {
@@ -431,7 +431,7 @@ const createAttendanceMetric = (knex, metric) => {
     attendance_rate: metric.attendance_rate,
     truancy_rate: metric.truancy_rate
   })
-  .catch(error => console.log(`Error seeding grad by IPST data: ${error}`));
+  .catch(error => console.log(`Error seeding attendance data: ${error}`));
 };
 
 const createPopulationOverviewMetric = (knex, metric) => {
@@ -454,7 +454,7 @@ const createPopulationOverviewMetric = (knex, metric) => {
     male_multi_racial_count: metric.male_multi_racial_count,
     total_student_count: metric.total_student_count
   })
-  .catch(error => console.log(`Error seeding grad by IPST data: ${error}`));
+  .catch(error => console.log(`Error seeding population data: ${error}`));
 };
 
 exports.seed = function(knex, Promise) {
