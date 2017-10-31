@@ -104,6 +104,7 @@ const createSchool = (knex, school) => {
       metric.school_id = schoolID[0];
       metricPromises.push(createGradIPSTMetric(knex, metric))
     });
+
     //Generate Promises for CMAS ELA and Math scores
     let ELAMathMetrics = elaMathData.filter(obj => {
       return obj.school_code == school.school_code;
