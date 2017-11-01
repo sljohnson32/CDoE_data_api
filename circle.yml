@@ -1,7 +1,7 @@
-general:
-  branches:
-    only:
-      - master
+# general:
+#   branches:
+#     only:
+#       - master
 machine:
   timezone:
     America/Denver
@@ -16,8 +16,8 @@ deployment:
   production:
     branch: master
     heroku:
-      appname: sj-da-byob
+      appname: cdoe-data-api
 
-test:
-  pre:
-    - eslint *.js
+# test:
+#   pre:
+#     - eslint *.js
