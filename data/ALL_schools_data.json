@@ -8547,7 +8547,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://lincolnlancers.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.6760184, 'Lng': -105.0257204}"
   },
   {
@@ -8564,7 +8564,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 7 - Grade 12",
     "school_website": "http://www.ridgeviewacademy.com",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.638409, 'Lng': -104.66251}"
   },
   {
@@ -8581,7 +8581,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.auldenver.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.758861, 'Lng': -105.016829}"
   },
   {
@@ -8595,10 +8595,10 @@
     "school_address": "12000 E. 47th Ave.",
     "school_phone": "303-574-1360",
     "school_principal_name": "Eric Brucz",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://www.academy-360.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.781989, 'Lng': -104.8503679}"
   },
   {
@@ -8612,10 +8612,10 @@
     "school_address": "5440 Scranton St.",
     "school_phone": "720-424-9988",
     "school_principal_name": "Charmaine Keeton",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://amesse.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.793327, 'Lng': -104.841959}"
   },
   {
@@ -8632,7 +8632,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://asbury.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.679945, 'Lng': -104.971666}"
   },
   {
@@ -8646,10 +8646,10 @@
     "school_address": "2525 W. 29th Ave.",
     "school_phone": "720-424-3310",
     "school_principal_name": "Jessica Buckley",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://www.escuelavaldez.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.759076, 'Lng': -105.018234}"
   },
   {
@@ -8663,10 +8663,10 @@
     "school_address": "1914 Syracuse St.",
     "school_phone": "720-424-9748",
     "school_principal_name": "Zachary Rahn",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://ashley.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.746388, 'Lng': -104.898325}"
   },
   {
@@ -8680,10 +8680,10 @@
     "school_address": "85 Hooker St.",
     "school_phone": "720-424-9590",
     "school_principal_name": "Elizabeth Vinson",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://barnum.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.71762, 'Lng': -105.029434}"
   },
   {
@@ -8697,10 +8697,10 @@
     "school_address": "4950 Beach Court",
     "school_phone": "720-424-9470",
     "school_principal_name": "Leah Schultz-Bartlett",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://beachcourt.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.78623, 'Lng': -105.017773}"
   },
   {
@@ -8714,10 +8714,10 @@
     "school_address": "3051 S. Elm St.",
     "school_phone": "720-424-9468",
     "school_principal_name": "Steve Wera",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://bradley.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.662803, 'Lng': -104.92961}"
   },
   {
@@ -8731,10 +8731,10 @@
     "school_address": "2500 E. 4th Ave.",
     "school_phone": "720-424-9330",
     "school_principal_name": "Andrew Hodges",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://bromwell.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7220143, 'Lng': -104.9573835}"
   },
   {
@@ -8748,10 +8748,10 @@
     "school_address": "2550 Lowell Blvd.",
     "school_phone": "720-424-9250",
     "school_principal_name": "Susan Williams",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://brown.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.754259, 'Lng': -105.03386}"
   },
   {
@@ -8768,7 +8768,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://bearvalley.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.660737, 'Lng': -105.058602}"
   },
   {
@@ -8785,7 +8785,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://bryantwebster.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.767461, 'Lng': -105.008486}"
   },
   {
@@ -8802,7 +8802,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://collegiateprep.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.788865, 'Lng': -104.800715}"
   },
   {
@@ -8819,7 +8819,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dosomethingreal.com/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.755447, 'Lng': -105.022375}"
   },
   {
@@ -8833,10 +8833,10 @@
     "school_address": "5420 E. 1st Ave.",
     "school_phone": "720-424-9090",
     "school_principal_name": "Anne Larkin",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://carson.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.71717, 'Lng': -104.923673}"
   },
   {
@@ -8853,7 +8853,7 @@
     "school_grade_levels": "23",
     "school_grade_display": "K - Grade 8",
     "school_website": "http://www.cca-denver.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.768549, 'Lng': -105.043709}"
   },
   {
@@ -8867,10 +8867,10 @@
     "school_address": "4665 Raleigh St.",
     "school_phone": "720-424-8900",
     "school_principal_name": "Laura Munro",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://centennial.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.781281, 'Lng': -105.04232}"
   },
   {
@@ -8887,7 +8887,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://cra.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.732271, 'Lng': -104.991272}"
   },
   {
@@ -8901,10 +8901,10 @@
     "school_address": "1580 Julian St.",
     "school_phone": "720-424-8810",
     "school_principal_name": "Felicia Manzanares",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://cheltenham.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.741565, 'Lng': -105.030721}"
   },
   {
@@ -8921,7 +8921,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.coloradohighschoolcharter.com",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.734931, 'Lng': -105.005608}"
   },
   {
@@ -8935,10 +8935,10 @@
     "school_address": "1526 Tennyson St.",
     "school_phone": "720-424-8740",
     "school_principal_name": "Sandra Beruman",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://colfax.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.74088, 'Lng': -105.043398}"
   },
   {
@@ -8952,10 +8952,10 @@
     "school_address": "3240 Humboldt St.",
     "school_phone": "720-423-9120",
     "school_principal_name": "Jennifer Jackson",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://www.colecasa.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.762906, 'Lng': -104.969933}"
   },
   {
@@ -8969,10 +8969,10 @@
     "school_address": "2675 S. Decatur St.",
     "school_phone": "720-424-8660",
     "school_principal_name": "Shelley Boberschmidt",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://collegeview.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.668041, 'Lng': -105.023553}"
   },
   {
@@ -8986,10 +8986,10 @@
     "school_address": "2925 W. 40th Ave.",
     "school_phone": "720-424-8580",
     "school_principal_name": "Jenifer Rouse",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://columbian.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.772652, 'Lng': -105.023515}"
   },
   {
@@ -9003,10 +9003,10 @@
     "school_address": "2540 E. 29th Ave.",
     "school_phone": "720-424-8510",
     "school_principal_name": "Jason Krause",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://columbine.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.757633, 'Lng': -104.956715}"
   },
   {
@@ -9023,7 +9023,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 8 - Grade 10",
     "school_website": "http://acecommunitychallengeschool.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.731464, 'Lng': -104.998492}"
   },
   {
@@ -9040,7 +9040,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "Grade 1 - Grade 5",
     "school_website": "http://cory.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.688781, 'Lng': -104.949585}"
   },
   {
@@ -9054,10 +9054,10 @@
     "school_address": "4540 W. 10th Ave.",
     "school_phone": "720-424-8300",
     "school_principal_name": "Shayley Levensalor",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://cowell.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.732503, 'Lng': -105.045791}"
   },
   {
@@ -9074,7 +9074,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.compassacademy.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.676435, 'Lng': -105.026815}"
   },
   {
@@ -9091,7 +9091,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "Grade 1 - Grade 5",
     "school_website": "http://polarisprogram.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.749819, 'Lng': -104.981999}"
   },
   {
@@ -9108,7 +9108,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.74785, 'Lng': -104.889996}"
   },
   {
@@ -9125,7 +9125,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.660737, 'Lng': -105.058602}"
   },
   {
@@ -9142,7 +9142,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://www.denvergreenschool.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.7066217, 'Lng': -104.909015}"
   },
   {
@@ -9159,7 +9159,7 @@
     "school_grade_levels": "2 3",
     "school_grade_display": "K - Grade 8",
     "school_website": "http://www.denverlanguageschool.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.722861, 'Lng': -104.910017}"
   },
   {
@@ -9173,10 +9173,10 @@
     "school_address": "520 W. 3rd Ave.",
     "school_phone": "720-424-7620",
     "school_principal_name": "Vanessa Acevedo",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://dcisfairmont.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7201608, 'Lng': -104.9942379}"
   },
   {
@@ -9193,7 +9193,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.784431, 'Lng': -104.780415}"
   },
   {
@@ -9210,7 +9210,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 7 - Grade 9",
     "school_website": "http://dmhs.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.774734, 'Lng': -105.009387}"
   },
   {
@@ -9224,10 +9224,10 @@
     "school_address": "1821 S. Yates St.",
     "school_phone": "720-424-8080",
     "school_principal_name": "Kathryn Mattis",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 6",
     "school_website": "http://denison.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.683241, 'Lng': -105.051257}"
   },
   {
@@ -9244,7 +9244,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.762906, 'Lng': -104.969933}"
   },
   {
@@ -9261,7 +9261,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.784431, 'Lng': -104.780415}"
   },
   {
@@ -9278,7 +9278,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dcis.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.7253997, 'Lng': -104.9944668}"
   },
   {
@@ -9295,7 +9295,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dsa.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.748085, 'Lng': -104.905539}"
   },
   {
@@ -9312,7 +9312,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.74785, 'Lng': -104.889996}"
   },
   {
@@ -9329,7 +9329,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7138222, 'Lng': -104.9798198}"
   },
   {
@@ -9346,7 +9346,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dc21.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.7424, 'Lng': -104.965345}"
   },
   {
@@ -9360,10 +9360,10 @@
     "school_address": "14500 Maxwell Place",
     "school_phone": "720-424-7300",
     "school_principal_name": "Ginger Conroy",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://dcisatford.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.792583, 'Lng': -104.815977}"
   },
   {
@@ -9380,7 +9380,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://www.ddeschool.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.745783, 'Lng': -104.985717}"
   },
   {
@@ -9397,7 +9397,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.dcismontbello.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.785875, 'Lng': -104.826118}"
   },
   {
@@ -9414,7 +9414,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.789379, 'Lng': -104.888555}"
   },
   {
@@ -9431,7 +9431,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7629129, 'Lng': -104.9699438}"
   },
   {
@@ -9448,7 +9448,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://denverdiscoveryschool.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.764625, 'Lng': -104.897718}"
   },
   {
@@ -9465,7 +9465,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7137, 'Lng': -104.979718}"
   },
   {
@@ -9482,7 +9482,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dsisd.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.737734, 'Lng': -104.977059}"
   },
   {
@@ -9499,7 +9499,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.659844, 'Lng': -105.027438}"
   },
   {
@@ -9513,10 +9513,10 @@
     "school_address": "2520 S. Utica St.",
     "school_phone": "720-424-8000",
     "school_principal_name": "Jodie Carrigan",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://doull.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.672416, 'Lng': -105.045021}"
   },
   {
@@ -9533,7 +9533,7 @@
     "school_grade_levels": "1",
     "school_grade_display": "ECE - K",
     "school_website": "http://eba.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.791162, 'Lng': -104.824184}"
   },
   {
@@ -9547,10 +9547,10 @@
     "school_address": "880 Hooker St.",
     "school_phone": "720-424-7930",
     "school_principal_name": "Lee Rains-Thomas",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://eagleton.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.730699, 'Lng': -105.028129}"
   },
   {
@@ -9567,7 +9567,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://east.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7416099, 'Lng': -104.9561402}"
   },
   {
@@ -9581,10 +9581,10 @@
     "school_address": "3350 Quitman St.",
     "school_phone": "720-424-7780",
     "school_principal_name": "Sarah Whitelock",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://edison.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.764863, 'Lng': -105.03998}"
   },
   {
@@ -9601,7 +9601,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://excelacademy.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.68432, 'Lng': -105.025743}"
   },
   {
@@ -9615,10 +9615,10 @@
     "school_address": "1651 S. Dahlia St.",
     "school_phone": "720-424-7700",
     "school_principal_name": "Nichole Whiteman",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://ellis.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.686543, 'Lng': -104.93254}"
   },
   {
@@ -9635,7 +9635,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://eghs.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.745783, 'Lng': -104.985717}"
   },
   {
@@ -9652,7 +9652,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.ventureprep.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.758728, 'Lng': -104.942645}"
   },
   {
@@ -9669,7 +9669,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://htec.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.776049, 'Lng': -104.853312}"
   },
   {
@@ -9683,10 +9683,10 @@
     "school_address": "2715 W. 11th Ave.",
     "school_phone": "720-424-7540",
     "school_principal_name": "Antoinette Hudson",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://fairview.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.734282, 'Lng': -105.020711}"
   },
   {
@@ -9703,7 +9703,7 @@
     "school_grade_levels": "1",
     "school_grade_display": "ECE - ECE",
     "school_website": "http://toddwilliams.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.787164, 'Lng': -104.765045}"
   },
   {
@@ -9720,7 +9720,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://florencecrittenton.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.715321, 'Lng': -105.016249}"
   },
   {
@@ -9734,10 +9734,10 @@
     "school_address": "1550 S. Wolff St.",
     "school_phone": "720-424-7400",
     "school_principal_name": "Valerie Burke",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://force.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.688856, 'Lng': -105.047725}"
   },
   {
@@ -9751,10 +9751,10 @@
     "school_address": "4425 Lincoln St.",
     "school_phone": "720-424-7220",
     "school_principal_name": "Rebecca Salomon",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 6",
     "school_website": "http://gardenplace.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.776955, 'Lng': -104.986362}"
   },
   {
@@ -9771,7 +9771,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://www.lenaarchuleta.com/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.793906, 'Lng': -104.802881}"
   },
   {
@@ -9788,7 +9788,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://gwhs.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.705187, 'Lng': -104.914419}"
   },
   {
@@ -9802,10 +9802,10 @@
     "school_address": "2949 California Street",
     "school_phone": "720-424-7140",
     "school_principal_name": "Kimberly Riggins",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 6",
     "school_website": "http://http://gilpin.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{‘Lat’: 39.758262, ‘Lng’: -104.975908}"
   },
   {
@@ -9819,10 +9819,10 @@
     "school_address": "2120 W. Arkansas Ave.",
     "school_phone": "720-424-7060",
     "school_principal_name": "Priscilla Hopkins",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://godsman.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.690194, 'Lng': -105.012964}"
   },
   {
@@ -9836,10 +9836,10 @@
     "school_address": "1050 S. Zuni St.",
     "school_phone": "720-424-6980",
     "school_principal_name": "Jessica Marks Ridgway",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://goldrick.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.697026, 'Lng': -105.015378}"
   },
   {
@@ -9856,7 +9856,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.galschools.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.728469, 'Lng': -104.99581}"
   },
   {
@@ -9873,7 +9873,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://grant.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.6854452, 'Lng': -104.9795006}"
   },
   {
@@ -9890,7 +9890,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://grantranch.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.617452, 'Lng': -105.06432}"
   },
   {
@@ -9907,7 +9907,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.galschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.728469, 'Lng': -104.99581}"
   },
   {
@@ -9921,10 +9921,10 @@
     "school_address": "4100 Jericho St.",
     "school_phone": "720-424-6710",
     "school_principal_name": "Blake Hammond",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://greenvalley.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.773505, 'Lng': -104.748432}"
   },
   {
@@ -9941,7 +9941,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://greenwood.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.786988, 'Lng': -104.817867}"
   },
   {
@@ -9955,10 +9955,10 @@
     "school_address": "1150 Lipan St.",
     "school_phone": "720-424-6800",
     "school_principal_name": "Sheldon Reynolds",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://greenlee.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.734553, 'Lng': -105.001138}"
   },
   {
@@ -9975,7 +9975,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://c3.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.6887368, 'Lng': -104.9458507}"
   },
   {
@@ -9989,10 +9989,10 @@
     "school_address": "3440 W. Yale Ave.",
     "school_phone": "720-424-6560",
     "school_principal_name": "Joanne Lander",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://gust.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.667309, 'Lng': -105.030709}"
   },
   {
@@ -10009,7 +10009,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://hamilton.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.6595532, 'Lng': -104.892916}"
   },
   {
@@ -10023,10 +10023,10 @@
     "school_address": "2401 E. 37th Ave.",
     "school_phone": "720-424-6420",
     "school_principal_name": "Karin Johnson",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://harrington.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.768729, 'Lng': -104.95858}"
   },
   {
@@ -10043,7 +10043,7 @@
     "school_grade_levels": "2 3",
     "school_grade_display": "K - Grade 8",
     "school_website": "http://www.highlineacademy.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.676995, 'Lng': -104.93069}"
   },
   {
@@ -10060,7 +10060,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://hill.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.72377, 'Lng': -104.934988}"
   },
   {
@@ -10074,10 +10074,10 @@
     "school_address": "8499 Stoll Place",
     "school_phone": "720-424-2100",
     "school_principal_name": "Amy Gile",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://hightechelementary.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.7893219, 'Lng': -104.8888918}"
   },
   {
@@ -10091,10 +10091,10 @@
     "school_address": "19451 East Maxwell Place",
     "school_phone": "720-485-5172",
     "school_principal_name": "Andria Hinman",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://www.highlineacademy.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7953995, 'Lng': -104.7613904}"
   },
   {
@@ -10108,10 +10108,10 @@
     "school_address": "3185 S. Willow St.",
     "school_phone": "720-424-6350",
     "school_principal_name": "James Metcalfe",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://holm.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.657776, 'Lng': -104.891948}"
   },
   {
@@ -10128,7 +10128,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://www.farrellbhowell.com",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.77626, 'Lng': -104.832675}"
   },
   {
@@ -10142,10 +10142,10 @@
     "school_address": "2701 N Lima St",
     "school_phone": "720-423-9900",
     "school_principal_name": "Brian Ricker",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://isabellabird.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.755475, 'Lng': -104.857623}"
   },
   {
@@ -10162,7 +10162,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://dsstpublicschools.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.6598387, 'Lng': -105.0274102}"
   },
   {
@@ -10176,10 +10176,10 @@
     "school_address": "3333 S. Havana St.",
     "school_phone": "720-423-9333",
     "school_principal_name": "Christine Fleming",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://shoemaker.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.658661, 'Lng': -104.8674213}"
   },
   {
@@ -10196,7 +10196,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://jfk.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.6615029, 'Lng': -105.0689536}"
   },
   {
@@ -10210,10 +10210,10 @@
     "school_address": "1850 S. Irving St.",
     "school_phone": "720-424-6290",
     "school_principal_name": "Elliot Lepert",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://johnson.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.683377, 'Lng': -105.028965}"
   },
   {
@@ -10230,7 +10230,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.denverjustice.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.730162, 'Lng': -104.983225}"
   },
   {
@@ -10244,10 +10244,10 @@
     "school_address": "4500 S. Quitman St.",
     "school_phone": "720-424-6210",
     "school_principal_name": "Mike Rowley",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://kaiser.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.634165, 'Lng': -105.041318}"
   },
   {
@@ -10261,10 +10261,10 @@
     "school_address": "19451 E. Maxwell Pl.",
     "school_phone": "720-452-2551",
     "school_principal_name": "Lindsey Lorehn",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 4",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.795813, 'Lng': -104.761112}"
   },
   {
@@ -10281,7 +10281,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 5 - Grade 8",
     "school_website": "http://www.kippcolorado.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.780815, 'Lng': -104.777559}"
   },
   {
@@ -10298,7 +10298,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.kippcolorado.org/kndla/index.cfm",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.789069, 'Lng': -104.775007}"
   },
   {
@@ -10315,7 +10315,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://beaconnetworkschools.org/kbms/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.699552, 'Lng': -105.028445}"
   },
   {
@@ -10332,7 +10332,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://kepner.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7000288, 'Lng': -105.0277473}"
   },
   {
@@ -10349,7 +10349,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.kippcolorado.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.70915, 'Lng': -105.011682}"
   },
   {
@@ -10366,7 +10366,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 5 - Grade 8",
     "school_website": "http://www.kippcolorado.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7098154, 'Lng': -105.0121664}"
   },
   {
@@ -10380,10 +10380,10 @@
     "school_address": "500 S. Utica St.",
     "school_phone": "720-424-6130",
     "school_principal_name": "Shane Knight",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://knapp.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.707844, 'Lng': -105.045002}"
   },
   {
@@ -10397,10 +10397,10 @@
     "school_address": "2950 Jasmine St",
     "school_phone": "720-424-6070",
     "school_principal_name": "Dominique Jefferson",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://hallett.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.759515, 'Lng': -104.918202}"
   },
   {
@@ -10417,7 +10417,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://kcaa.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.675596, 'Lng': -105.0403319}"
   },
   {
@@ -10434,7 +10434,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://legacyoptionshs.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.820642, 'Lng': -104.768938}"
   },
   {
@@ -10448,10 +10448,10 @@
     "school_address": "710 S. Pennsylvania St.",
     "school_phone": "720-424-5990",
     "school_principal_name": "Janice Spearman",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://lincoln.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.703557, 'Lng': -104.98102}"
   },
   {
@@ -10468,7 +10468,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://lake.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.745756, 'Lng': -105.034608}"
   },
   {
@@ -10482,10 +10482,10 @@
     "school_address": "8001 E. Cedar Ave.",
     "school_phone": "720-424-5910",
     "school_principal_name": "Ben Cooper",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://lowry.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.712842, 'Lng': -104.896418}"
   },
   {
@@ -10502,7 +10502,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://manual.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.756402, 'Lng': -104.967203}"
   },
   {
@@ -10516,10 +10516,10 @@
     "school_address": "19100 E. 40th Ave.",
     "school_phone": "720-424-5820",
     "school_principal_name": "Merida Fraguada",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://marrama.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.772339, 'Lng': -104.764003}"
   },
   {
@@ -10536,7 +10536,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://mlk.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7806195, 'Lng': -104.7601692}"
   },
   {
@@ -10553,7 +10553,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://msla.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7084691, 'Lng': -105.0112516}"
   },
   {
@@ -10570,7 +10570,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://www.monarchM.com",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7260332, 'Lng': -104.8495839}"
   },
   {
@@ -10584,10 +10584,10 @@
     "school_address": "14390 E. Bolling Drive",
     "school_phone": "720-424-5740",
     "school_principal_name": "Nivan Khosravi",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://maxwell.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.783358, 'Lng': -104.823795}"
   },
   {
@@ -10601,10 +10601,10 @@
     "school_address": "4500 Crown Blvd.",
     "school_phone": "720-424-5660",
     "school_principal_name": "Sara Goodall",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://mcglone.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.780259, 'Lng': -104.837632}"
   },
   {
@@ -10618,10 +10618,10 @@
     "school_address": "1230 S. Grant St.",
     "school_phone": "720-424-5600",
     "school_principal_name": "Sonia Geerdes",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://mckinleythatcher.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.693806, 'Lng': -104.983848}"
   },
   {
@@ -10635,10 +10635,10 @@
     "school_address": "1000 S. Holly St.",
     "school_phone": "720-424-5520",
     "school_principal_name": "David Adams",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://mcmeen.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.698288, 'Lng': -104.921193}"
   },
   {
@@ -10655,7 +10655,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://merrill.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.6887368, 'Lng': -104.9458507}"
   },
   {
@@ -10672,7 +10672,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://cla.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.730094, 'Lng': -104.984499}"
   },
   {
@@ -10689,7 +10689,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://mcauliffe.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.753683, 'Lng': -104.922167}"
   },
   {
@@ -10706,7 +10706,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://mcauliffemanual.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.756402, 'Lng': -104.967203}"
   },
   {
@@ -10720,10 +10720,10 @@
     "school_address": "1151 Newport St.",
     "school_phone": "720-424-5380",
     "school_principal_name": "Ryan Kockler",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://montclair.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.733611, 'Lng': -104.909897}"
   },
   {
@@ -10740,7 +10740,7 @@
     "school_grade_levels": "2 3",
     "school_grade_display": "K - Grade 8",
     "school_website": "http://doramoore.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.72997, 'Lng': -104.973731}"
   },
   {
@@ -10757,7 +10757,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://morey.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7376306, 'Lng': -104.9770332}"
   },
   {
@@ -10771,10 +10771,10 @@
     "school_address": "3440 W. Virginia Ave.",
     "school_phone": "720-424-5230",
     "school_principal_name": "Abigail Brown",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://munroe.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.707272, 'Lng': -105.031434}"
   },
   {
@@ -10791,7 +10791,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://ncas.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.785875, 'Lng': -104.826118}"
   },
   {
@@ -10805,10 +10805,10 @@
     "school_address": "361 Vrain St.",
     "school_phone": "720-424-5150",
     "school_principal_name": "Rob Beam",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://newlon.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.721687, 'Lng': -105.046648}"
   },
   {
@@ -10825,7 +10825,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://nec.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.761187, 'Lng': -105.022923}"
   },
   {
@@ -10842,7 +10842,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://north.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7602165, 'Lng': -105.0237351}"
   },
   {
@@ -10859,7 +10859,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://randolph.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.771688, 'Lng': -104.949909}"
   },
   {
@@ -10876,7 +10876,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://northfield.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.797247, 'Lng': -104.883488}"
   },
   {
@@ -10890,10 +10890,10 @@
     "school_address": "3655 Wyandot St.",
     "school_phone": "720-424-4370",
     "school_principal_name": "Araceli O'Clair",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 6",
     "school_website": "http://sandoval.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.767459, 'Lng': -105.015225}"
   },
   {
@@ -10910,7 +10910,7 @@
     "school_grade_levels": "2 3",
     "school_grade_display": "K - Grade 8",
     "school_website": "http://www.odysseydenver.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.748541, 'Lng': -104.912043}"
   },
   {
@@ -10927,7 +10927,7 @@
     "school_grade_levels": "2 3",
     "school_grade_display": "K - Grade 8",
     "school_website": "http://www.omardblaircharterschool.com",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.786573, 'Lng': -104.765715}"
   },
   {
@@ -10944,7 +10944,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://online.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.774734, 'Lng': -105.009387}"
   },
   {
@@ -10958,10 +10958,10 @@
     "school_address": "995 Grape St.",
     "school_phone": "720-424-5000",
     "school_principal_name": "LuAnn Tallman",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://palmer.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.731928, 'Lng': -104.924719}"
   },
   {
@@ -10975,10 +10975,10 @@
     "school_address": "5050 E. 19th Ave.",
     "school_phone": "720-424-4910",
     "school_principal_name": "Ken Burdette",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://parkhill.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.745192, 'Lng': -104.929322}"
   },
   {
@@ -10995,7 +10995,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://uprepschool.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.768855, 'Lng': -104.949238}"
   },
   {
@@ -11012,7 +11012,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://waller.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.790612, 'Lng': -104.73624}"
   },
   {
@@ -11029,7 +11029,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://place.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.688354, 'Lng': -104.905945}"
   },
   {
@@ -11046,7 +11046,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://prepacademy.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.756324, 'Lng': -104.95772}"
   },
   {
@@ -11063,7 +11063,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://pushacademy.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.77562, 'Lng': -104.795881}"
   },
   {
@@ -11080,7 +11080,7 @@
     "school_grade_levels": "1",
     "school_grade_display": "ECE - ECE",
     "school_website": "http://pascualledoux.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.6977196, 'Lng': -105.0276278}"
   },
   {
@@ -11094,10 +11094,10 @@
     "school_address": "7808 Cherry Creek South Dr",
     "school_phone": "720-863-8920",
     "school_principal_name": "Austen Kassinger",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://www.rockymountainprep.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.678969, 'Lng': -104.898467}"
   },
   {
@@ -11111,10 +11111,10 @@
     "school_address": "940 Filmore St",
     "school_phone": "720-668-9691",
     "school_principal_name": "Moira Coogan",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.731732, 'Lng': -104.95254}"
   },
   {
@@ -11131,7 +11131,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://respect.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.676435, 'Lng': -105.026815}"
   },
   {
@@ -11148,7 +11148,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.riseupcommunityschool.net",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.745347, 'Lng': -105.025644}"
   },
   {
@@ -11162,10 +11162,10 @@
     "school_address": "911 S Hazel Ct",
     "school_phone": "720-863-8920",
     "school_principal_name": "Jennifer Reese",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://rockymountainprep.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7000288, 'Lng': -105.0277473}"
   },
   {
@@ -11182,7 +11182,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://rootselementary.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.76457, 'Lng': -104.9236}"
   },
   {
@@ -11196,10 +11196,10 @@
     "school_address": "3050 S. Vrain St.",
     "school_phone": "720-424-4520",
     "school_principal_name": "Kirsten Frassanito",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://sabin.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.659473, 'Lng': -105.045377}"
   },
   {
@@ -11213,10 +11213,10 @@
     "school_address": "3985 S. Vincennes Court",
     "school_phone": "720-424-4450",
     "school_principal_name": "Cesar Rivera",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://samuels.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.642755, 'Lng': -104.892277}"
   },
   {
@@ -11230,10 +11230,10 @@
     "school_address": "1300 S. Lowell Blvd.",
     "school_phone": "720-424-4300",
     "school_principal_name": "Alejandra Sotiros",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://cmscommunityschool.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.692496, 'Lng': -105.033913}"
   },
   {
@@ -11247,10 +11247,10 @@
     "school_address": "1820 S. Vallejo St.",
     "school_phone": "720-424-4230",
     "school_principal_name": "Jesse Tang",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://schmitt.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.683358, 'Lng': -105.012171}"
   },
   {
@@ -11267,7 +11267,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.striveprep.org/school/strive-prep-kepner/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.699552, 'Lng': -105.028445}"
   },
   {
@@ -11284,7 +11284,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://skinner.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7721293, 'Lng': -105.0322707}"
   },
   {
@@ -11301,7 +11301,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://slavens.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.66192, 'Lng': -104.955714}"
   },
   {
@@ -11318,7 +11318,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.striveprep.org/school/strive-prep-rise/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.789069, 'Lng': -104.775007}"
   },
   {
@@ -11332,10 +11332,10 @@
     "school_address": "3590 Jasmine St.",
     "school_phone": "720-424-4000",
     "school_principal_name": "Emily El Moudaffar",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://smith.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.766752, 'Lng': -104.918236}"
   },
   {
@@ -11352,7 +11352,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://www.soardenver.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.784431, 'Lng': -104.780415}"
   },
   {
@@ -11369,7 +11369,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://henry.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.660673, 'Lng': -105.0583917}"
   },
   {
@@ -11386,7 +11386,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.67819, 'Lng': -105.018746}"
   },
   {
@@ -11403,7 +11403,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://south.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.6927508, 'Lng': -104.967311}"
   },
   {
@@ -11417,10 +11417,10 @@
     "school_address": "4580 Dearborn St.",
     "school_phone": "720-424-5070",
     "school_principal_name": "Lisa Mahannah",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://oakland.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.7322772, 'Lng': -104.8174965}"
   },
   {
@@ -11437,7 +11437,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.swecollege.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.662068, 'Lng': -105.028002}"
   },
   {
@@ -11451,10 +11451,10 @@
     "school_address": "3755 S. Magnolia Way",
     "school_phone": "720-424-3930",
     "school_principal_name": "Sarina Compoz",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://southmoor.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.648111, 'Lng': -104.91184}"
   },
   {
@@ -11471,7 +11471,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://summit.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.678946, 'Lng': -105.056321}"
   },
   {
@@ -11488,7 +11488,7 @@
     "school_grade_levels": "1",
     "school_grade_display": "ECE - K",
     "school_website": "http://skcee.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.7047154, 'Lng': -104.9489375}"
   },
   {
@@ -11502,10 +11502,10 @@
     "school_address": "450 Albion St",
     "school_phone": "720-424-3870",
     "school_principal_name": "Robin Kline",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://steck.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.723751, 'Lng': -104.938578}"
   },
   {
@@ -11519,10 +11519,10 @@
     "school_address": "2940 Dexter St.",
     "school_phone": "720-424-3800",
     "school_principal_name": "Melissa Peterson",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://stedman.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.759547, 'Lng': -104.932263}"
   },
   {
@@ -11539,7 +11539,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://steele.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.710235, 'Lng': -104.971566}"
   },
   {
@@ -11556,7 +11556,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.761187, 'Lng': -105.022923}"
   },
   {
@@ -11573,7 +11573,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.67819, 'Lng': -105.018746}"
   },
   {
@@ -11587,10 +11587,10 @@
     "school_address": "4650 Columbine St.",
     "school_phone": "720-424-3630",
     "school_principal_name": "Gilberto Munoz",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://swansea.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.781367, 'Lng': -104.956453}"
   },
   {
@@ -11604,10 +11604,10 @@
     "school_address": "3480 Syracuse",
     "school_phone": "720-424-4800",
     "school_principal_name": "Shelby Dennis",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://swigert.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.76443, 'Lng': -104.898281}"
   },
   {
@@ -11621,10 +11621,10 @@
     "school_address": "1150 Garfield St.",
     "school_phone": "720-424-3560",
     "school_principal_name": "Sabrina Bates",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://teller.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.734409, 'Lng': -104.943497}"
   },
   {
@@ -11638,10 +11638,10 @@
     "school_address": "5500 Central Park Blvd.",
     "school_phone": "720-424-4850",
     "school_principal_name": "Marisol Enriquez",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://inspire.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.797247, 'Lng': -104.883488}"
   },
   {
@@ -11658,7 +11658,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.wyattacademy.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.767664, 'Lng': -104.968076}"
   },
   {
@@ -11675,7 +11675,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.751753, 'Lng': -105.018383}"
   },
   {
@@ -11692,7 +11692,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dcis.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.724992, 'Lng': -104.994256}"
   },
   {
@@ -11709,7 +11709,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://randolph.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.771688, 'Lng': -104.949909}"
   },
   {
@@ -11726,7 +11726,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://kcaa.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.67649, 'Lng': -105.03985}"
   },
   {
@@ -11743,7 +11743,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.dcismontbello.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.785875, 'Lng': -104.826118}"
   },
   {
@@ -11760,7 +11760,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://ncas.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.785875, 'Lng': -104.826118}"
   },
   {
@@ -11777,7 +11777,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://mlk.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.78097, 'Lng': -104.760142}"
   },
   {
@@ -11794,7 +11794,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.705187, 'Lng': -104.914419}"
   },
   {
@@ -11811,7 +11811,7 @@
     "school_grade_levels": "1",
     "school_grade_display": "ECE - ECE",
     "school_website": "http://balarat.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.772422, 'Lng': -105.031438}"
   },
   {
@@ -11828,7 +11828,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dsa.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.748085, 'Lng': -104.905539}"
   },
   {
@@ -11845,7 +11845,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.775399, 'Lng': -104.951077}"
   },
   {
@@ -11862,7 +11862,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://westearlycollege.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.731376, 'Lng': -104.99525}"
   },
   {
@@ -11879,7 +11879,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://westleadershipacademy.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.731376, 'Lng': -104.99525}"
   },
   {
@@ -11896,7 +11896,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dmhs.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.774734, 'Lng': -105.009387}"
   },
   {
@@ -11913,7 +11913,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.776049, 'Lng': -104.853312}"
   },
   {
@@ -11930,7 +11930,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://summit.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.678946, 'Lng': -105.056321}"
   },
   {
@@ -11947,7 +11947,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://vistaacademy.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.784431, 'Lng': -104.780415}"
   },
   {
@@ -11964,7 +11964,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://dc21.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.7424, 'Lng': -104.965345}"
   },
   {
@@ -11981,7 +11981,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://prepacademy.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.756324, 'Lng': -104.95772}"
   },
   {
@@ -11998,7 +11998,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.757402, 'Lng': -104.972735}"
   },
   {
@@ -12015,7 +12015,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.757402, 'Lng': -104.972735}"
   },
   {
@@ -12032,7 +12032,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.757402, 'Lng': -104.972735}"
   },
   {
@@ -12049,7 +12049,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://kcaa.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.675596, 'Lng': -105.0403319}"
   },
   {
@@ -12066,7 +12066,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://tjhs.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.6468615, 'Lng': -104.9217985}"
   },
   {
@@ -12080,10 +12080,10 @@
     "school_address": "2900 S. Ivan Way",
     "school_phone": "720-424-3480",
     "school_principal_name": "Dawn Carrico",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://traylor.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.660586, 'Lng': -105.062641}"
   },
   {
@@ -12097,10 +12097,10 @@
     "school_address": "4130 Navajo St.",
     "school_phone": "720-423-9800",
     "school_principal_name": "Jesus Rodriguez",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://trevista.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.773647, 'Lng': -105.003446}"
   },
   {
@@ -12117,7 +12117,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 3",
     "school_website": "http://www.uprepschool.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.7561997, 'Lng': -104.9857938}"
   },
   {
@@ -12134,7 +12134,7 @@
     "school_grade_levels": "2",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://www.uparkelementary.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.674758, 'Lng': -104.950747}"
   },
   {
@@ -12151,7 +12151,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://vistaacademy.dpsk12.org/",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.784431, 'Lng': -104.780415}"
   },
   {
@@ -12165,10 +12165,10 @@
     "school_address": "2030 W. Alameda Ave.",
     "school_phone": "720-424-3250",
     "school_principal_name": "Andrew Schutz",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://valverde.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.71052, 'Lng': -105.011499}"
   },
   {
@@ -12185,7 +12185,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.78221, 'Lng': -105.006715}"
   },
   {
@@ -12202,7 +12202,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://westcareeracademytri.weebly.com/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.731376, 'Lng': -104.995250}"
   },
   {
@@ -12219,7 +12219,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.6957925, 'Lng': -105.027655}"
   },
   {
@@ -12236,7 +12236,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.745756, 'Lng': -105.034608}"
   },
   {
@@ -12250,10 +12250,10 @@
     "school_address": "8800 E. 28th Ave.",
     "school_phone": "720-424-3160",
     "school_principal_name": "Jill Corcoran",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://westerlycreek.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.756102, 'Lng': -104.884863}"
   },
   {
@@ -12267,10 +12267,10 @@
     "school_address": "845 S. Lowell Blvd.",
     "school_phone": "720-424-8990",
     "school_principal_name": "Bob Villarreal",
-    "school_grade_levels": "1 2",
+    "school_grade_levels": "12",
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://castro.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.701255, 'Lng': -105.035593}"
   },
   {
@@ -12287,7 +12287,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://whittier.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.752601, 'Lng': -104.972661}"
   },
   {
@@ -12304,7 +12304,7 @@
     "school_grade_levels": "1 2 3",
     "school_grade_display": "ECE - Grade 8",
     "school_website": "http://billroberts.dpsk12.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.748183, 'Lng': -104.883257}"
   },
   {
@@ -12321,7 +12321,7 @@
     "school_grade_levels": "4",
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.69539, 'Lng': -105.028173}"
   },
   {
@@ -12338,7 +12338,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://westearlycollege.dpsk12.org/",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.731376, 'Lng': -104.99525}"
   },
   {
@@ -12355,7 +12355,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://westleadershipacademy.dpsk12.org",
-    "school_type": "Public",
+    "school_type": "public",
     "school_location": "{'Lat' : 39.731376, 'Lng': -104.99525}"
   },
   {
@@ -12372,7 +12372,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.784431, 'Lng': -104.780415}"
   },
   {
@@ -12389,7 +12389,7 @@
     "school_grade_levels": "3",
     "school_grade_display": "Grade 6 - Grade 8",
     "school_website": "http://www.striveprep.org",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.776049, 'Lng': -104.853312}"
   },
   {
@@ -12406,7 +12406,7 @@
     "school_grade_levels": "2 3",
     "school_grade_display": "K - Grade 5",
     "school_website": "http://www.wyattacademy.org/",
-    "school_type": "Charter",
+    "school_type": "charter",
     "school_location": "{'Lat' : 39.767664, 'Lng': -104.968076}"
   },
   {
@@ -31514,7 +31514,7 @@
     "school_grade_levels": "2 3 4",
     "school_grade_display": "K - Grade 12",
     "school_website": "http://www.rmsel.org",
-    "school_type": "Other",
+    "school_type": "other",
     "school_location": "{'Lat' : 39.685038, 'Lng': -104.921392}"
   },
   {

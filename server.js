@@ -4,8 +4,6 @@ const bodyParser = require('body-parser');
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
-// const jwt = require('jsonwebtoken');
-// const secretKey = process.env.secretKey || require('./secretKey');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -13,67 +11,26 @@ app.use(express.static(__dirname + '/public'));
 
 app.set('port', process.env.PORT || 3000);
 
-// const checkAuth = (request, response, next) => {
-//   let bodyToken = request.body.token;
-//   let headerToken = request.get('authorization');
-//   let paramToken = request.param.token;
-//   let token = bodyToken || headerToken || paramToken;
-//   let allowedAppName = 'byob';
-//
-//   if(!token) {
-//     return response.status(403).json({ error: 'Invalid Token' });
-//   }
-//
-//   jwt.verify(token, secretKey, (error, decoded) => {
-//     if (error) {
-//       return response.status(403).json(error);
-//     } else if (!decoded.admin) {
-//       return response.status(403).json({ error: 'Admin priviledges are required to complete this action.' });
-//     } else if (decoded.appName !== allowedAppName){
-//       return response.status(403).json({ error: 'Invalid App' });
-//     } else next();
-//   });
-// };
-
 //Client-side endpoint
 app.get('/', (request, response) => {
   response.sendfile('index.html');
 });
 
-//Authentication endpoint
-// app.post('/api/v1/authentication', (request, response) => {
-//   let payload = request.body;
-//   let options = { expiresIn: '1h' };
-//
-//   for (let requiredParameter of ['email', 'appName']) {
-//     if (!request.body[requiredParameter]) {
-//       return response
-//         .status(422)
-//         .send({ error: `Expected format: { email: <String>, appName: <String> }. You're missing a '${requiredParameter}' property.` });
-//     }
-//   }
-//   if (payload.email.endsWith('@turing.io')) { payload.admin = true; }
-//
-//   let token = jwt.sign(payload, secretKey, options);
-//   return response.status(201).json(token);
-// });
-
 //API endpoints
 app.get('/api/v1/schools', (request, response) => {
-  let ratioMin = request.query.ratioMin;
-  let ratioMax = request.query.ratioMax;
-
+  let { grade_levels, type } = request.query;
+  console.log('WORKING', grade_levels, type);
   const checkQuery = () => {
-    if (ratioMin && ratioMax) {
-      return database('schools').where('student_teacher_ratio', '>=', ratioMin).where('student_teacher_ratio', '<=', ratioMax).select();
+    if (grade_levels && type) {
+      return database('schools').where('grade_levels', '=', grade_levels).where('type', '=', type).select();
     }
-    if (ratioMin && !ratioMax) {
-      return database('schools').where('student_teacher_ratio', '>=', ratioMin).select();
+    if (grade_levels && !type) {
+      return database('schools').where('grade_lelel', '=', grade_levels).select();
     }
-    if (!ratioMin && ratioMax) {
-      return database('schools').where('student_teacher_ratio', '<=', ratioMax).select();
+    if (!grade_levels && type) {
+      return database('schools').where('type', '=', type).select();
     }
-    if (!ratioMin && !ratioMax) {
+    if (!grade_levels && !type) {
       return database('schools').select();
     }
   };
