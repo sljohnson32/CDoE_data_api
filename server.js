@@ -114,7 +114,7 @@ app.get('/api/v1/counties', (request, response) => {
 });
 
 app.get('/api/v1/grads', (request, response) => {
-  database('school_graduation_completeion_ipst')
+  database('school_graduation_completion_ipst')
     .then( grads => {
       if (!grads.length) {
         return response.status(404).json({
@@ -130,13 +130,13 @@ app.get('/api/v1/grads', (request, response) => {
 app.get('/api/v1/grads/:id', (request, response) => {
   const id = request.params.id;
 
-  database('school_graduation_completeion_ipst').where('id', id).select()
+  database('school_graduation_completion_ipst').where('school_id', id).select()
     .then( grads => {
       if (!grads.length) {
         return response.status(404).json({
-          error: `Could not find graduates with id ${id}`
+          error: `Could not find graduates from school with id ${id}`
         });
-      } else return response.status(200).json(school);
+      } else response.status(200).json(grads);
     })
     .catch( error => {
       response.status(500).json(error);
@@ -150,9 +150,6 @@ app.get('/api/v1/gender-race/:id', (request, response) => {
   const checkQuery = () => {
     return database('school_graduation_completion_gender_ethnicity').where('school_id', id)
       .then( data => {
-        console.log({race});
-        console.log({gender});
-        
         if (gender && race) {
           const dataKeys = Object.keys(data[0]);
           const filteredData = dataKeys.filter( key => key.includes(gender) && key.includes(race));
@@ -177,31 +174,11 @@ app.get('/api/v1/gender-race/:id', (request, response) => {
     });
   });
 
-app.post('/api/v1/schools', (request, response) => {
-  const school = request.body;
-
-  for (let requiredParameter of ['name', 'school_code', 'student_count', 'teacher_count', 'student_teacher_ratio', 'district_id']) {
-    if (!school[requiredParameter]) {
-      return response
-        .status(422)
-        .send({ error: `Expected format: { name: <String>, school_code: <String>, student_count: <String>, techer_count: <String>, studetn_teacher_ratio: <String> }. You're missing a '${requiredParameter}' property.` });
-    }
-  }
-
-  database('schools').insert(school, 'id')
-    .then(school => {
-      response.status(201).json({ id: school[0] });
-    })
-    .catch(error => {
-      response.status(500).json({ error });
-    });
-});
-
 app.get('/api/v1/counties/:id', (request, response) => {
   const id = request.params.id;
 
   database('counties').where('id', id).select()
-    .then((county) => {
+    .then(county => {
       if (county.length == 0) {
         return response.status(404).json({
           error: `Could not find county with id ${id}`
