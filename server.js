@@ -11,12 +11,16 @@ app.use(express.static(__dirname + '/public'));
 
 app.set('port', process.env.PORT || 3000);
 
-//Client-side endpoint
+
+//CLIENT-SIDE ENDPOINTS
 app.get('/', (request, response) => {
   response.sendfile('index.html');
 });
 
-//API endpoints
+
+//API ENDPOINTS
+
+//SCHOOL ENDPOINTS
 app.get('/api/v1/schools', (request, response) => {
   let { grade_levels, type } = request.query;
   console.log('WORKING', grade_levels, type);
@@ -44,6 +48,24 @@ app.get('/api/v1/schools', (request, response) => {
     });
 });
 
+app.get('/api/v1/schools/:id', (request, response) => {
+  const id = request.params.id;
+
+  database('schools').where('id', id).select()
+    .then((school) => {
+      if (school.length == 0) {
+        return response.status(404).json({
+          error: `Could not find school with id ${id}`
+        });
+      } else return response.status(200).json(school);
+    })
+    .catch((error) => {
+      response.status(500).json(error);
+    });
+});
+
+
+//DISTRICT ENDPOINTS
 app.get('/api/v1/districts', (request, response) => {
   let { countyID } = request.query;
 
@@ -64,6 +86,23 @@ app.get('/api/v1/districts', (request, response) => {
     });
 });
 
+app.get('/api/v1/districts/:id', (request, response) => {
+  const id = request.params.id;
+
+  database('districts').where('id', id).select()
+    .then((district) => {
+      if (district.length == 0) {
+        return response.status(404).json({
+          error: `Could not find district with id ${id}`
+        });
+      } else return response.status(200).json(district);
+    })
+    .catch((error) => {
+      response.status(500).json(error);
+    });
+});
+
+//COUNTY ENDPOINTS
 app.get('/api/v1/counties', (request, response) => {
   database('counties').select()
     .then((counties) => {
@@ -87,141 +126,6 @@ app.get('/api/v1/counties/:id', (request, response) => {
     })
     .catch((error) => {
       response.status(500).json(error);
-    });
-});
-
-app.get('/api/v1/districts/:id', (request, response) => {
-  const id = request.params.id;
-
-  database('districts').where('id', id).select()
-    .then((district) => {
-      if (district.length == 0) {
-        return response.status(404).json({
-          error: `Could not find district with id ${id}`
-        });
-      } else return response.status(200).json(district);
-    })
-    .catch((error) => {
-      response.status(500).json(error);
-    });
-});
-
-app.get('/api/v1/schools/:id', (request, response) => {
-  const id = request.params.id;
-
-  database('schools').where('id', id).select()
-    .then((school) => {
-      if (school.length == 0) {
-        return response.status(404).json({
-          error: `Could not find school with id ${id}`
-        });
-      } else return response.status(200).json(school);
-    })
-    .catch((error) => {
-      response.status(500).json(error);
-    });
-});
-
-app.post('/api/v1/schools', (request, response) => {
-  const school = request.body;
-
-  for (let requiredParameter of ['name', 'school_code', 'student_count', 'teacher_count', 'student_teacher_ratio', 'district_id']) {
-    if (!school[requiredParameter]) {
-      return response
-        .status(422)
-        .send({ error: `Expected format: { name: <String>, school_code: <String>, student_count: <String>, techer_count: <String>, studetn_teacher_ratio: <String> }. You're missing a '${requiredParameter}' property.` });
-    }
-  }
-
-  database('schools').insert(school, 'id')
-    .then(school => {
-      response.status(201).json({ id: school[0] });
-    })
-    .catch(error => {
-      response.status(500).json({ error });
-    });
-});
-
-app.post('/api/v1/districts', (request, response) => {
-  const district = request.body;
-
-  for (let requiredParameter of ['name', 'district_code', 'county_id']) {
-    if (!district[requiredParameter]) {
-      return response.status(422)
-        .json({ error: `Expected format: { name: <String>, district_code: <String>, county_id: <String> }. You're missing a '${requiredParameter}' property.` });
-    }
-  }
-
-  database('districts').insert(district, 'id')
-    .then(school => {
-      response.status(201).json({ id: school[0] });
-    })
-    .catch(error => {
-      response.status(500).json({ error });
-    });
-});
-
-//put & patch schools
-app.put('/api/v1/schools/:id', (request, response) => {
-  let { id } = request.params;
-  let school = request.body;
-
-  for (let requiredParameter of ['name', 'school_code', 'student_count', 'teacher_count', 'student_teacher_ratio', 'district_id']) {
-    if (!school[requiredParameter]) {
-      return response
-        .status(422)
-        .json({ error: `Expected format: { name: <String>, school_code: <String>, student_count: <Integer>, teacher_count: <Integer>, student_teacher_ratio: <Integer>, district_id: <Integer> }. You're missing a '${requiredParameter}' property.` });
-    }
-  }
-
-  database('schools').where({ id }).update(school, 'id')
-    .then(() => {
-      response.status(201).json({ id });
-    })
-    .catch(error => {
-      response.status(500).json(error);
-    });
-});
-
-app.patch('/api/v1/schools/:id', (request, response) => {
-  let { id } = request.params;
-  let schoolPatch = request.body;
-
-  database('schools').where('id', id).update(schoolPatch, '*')
-    .then(() => {
-      response.status(201).json(`School with id:${id} was updated.`);
-    })
-    .catch(error => {
-      response.status(500).json(error);
-    });
-});
-
-//delete
-app.delete('/api/v1/schools/:id', (request, response) => {
-  const { id } = request.params;
-
-  database('schools').where({ id }).del()
-    .then(school => {
-      if (school) {
-        return response.status(202).json(`School ${id} was deleted from database`);
-      } else return response.status(422).json({ error: 'Not Found' });
-    })
-    .catch(error => {
-      response.status(500).json({ error });
-    });
-});
-
-app.delete('/api/v1/districts/:id', (request, response) => {
-  const { id } = request.params;
-
-  database('districts').where({ id }).del()
-    .then(district => {
-      if (district) {
-        return response.status(202).json(`District ${id} was deleted from database`);
-      } else return response.status(422).json({ error: 'Not Found' });
-    })
-    .catch(error => {
-      response.status(500).json({ error });
     });
 });
 
