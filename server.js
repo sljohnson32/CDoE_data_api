@@ -22,13 +22,13 @@ app.get('/api/v1/schools', (request, response) => {
   console.log('WORKING', grade_levels, type);
   const checkQuery = () => {
     if (grade_levels && type) {
-      return database('schools').where('grade_levels', '=', grade_levels).where('type', '=', type).select();
+      return database('schools').where('grade_levels', grade_levels).where('type', type).select();
     }
     if (grade_levels && !type) {
-      return database('schools').where('grade_lelel', '=', grade_levels).select();
+      return database('schools').where('grade_levels', grade_levels).select();
     }
     if (!grade_levels && type) {
-      return database('schools').where('type', '=', type).select();
+      return database('schools').where('type', type).select();
     }
     if (!grade_levels && !type) {
       return database('schools').select();
@@ -121,6 +121,70 @@ app.get('/api/v1/schools/:id', (request, response) => {
       response.status(500).json(error);
     });
 });
+
+app.get('/api/v1/grads', (request, response) => {
+  database('school_graduation_completeion_ipst')
+    .then( grads => {
+      if (!grads.length) {
+        return response.status(404).json({
+          error: 'Could not find graduates'
+        });
+      } else return response.status(200).json(grads);
+    })
+    .catch( error => {
+      response.status(500).json(error);
+    });
+});
+
+app.get('/api/v1/grads/:id', (request, response) => {
+  const id = request.params.id;
+
+  database('school_graduation_completeion_ipst').where('id', id).select()
+    .then( grads => {
+      if (!grads.length) {
+        return response.status(404).json({
+          error: `Could not find graduates with id ${id}`
+        });
+      } else return response.status(200).json(school);
+    })
+    .catch( error => {
+      response.status(500).json(error);
+    });
+});
+
+app.get('/api/v1/gender-race/:id', (request, response) => {
+  const { gender, race } = request.query;
+  const id = request.params.id;
+
+  const checkQuery = () => {
+    return database('school_graduation_completion_gender_ethnicity').where('school_id', id)
+      .then( data => {
+        console.log({race});
+        console.log({gender});
+        
+        if (gender && race) {
+          const dataKeys = Object.keys(data[0]);
+          const filteredData = dataKeys.filter( key => key.includes(gender) && key.includes(race));
+          return filteredData.map( key => ({ [key]: data[0][key] }))
+        }
+        if (gender || race) {
+          const dataKeys = Object.keys(data[0]);
+          const filteredData = dataKeys.filter( key => key.includes(gender) || key.includes(race));
+          return filteredData.map( key => ({ [key]: data[0][key] }))
+        }
+        return data
+      })
+      .catch( error => console.log({ error }));
+  }
+
+    checkQuery()
+    .then( data => {
+      return response.status(200).json(data);
+    })
+    .catch((error) => {
+      response.status(500).json({error});
+    });
+  });
 
 app.post('/api/v1/schools', (request, response) => {
   const school = request.body;
