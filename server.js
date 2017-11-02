@@ -156,12 +156,9 @@ app.get('/api/v1/gender-race/:id', (request, response) => {
   const { gender, race } = request.query;
   const id = request.params.id;
 
-  const checkQuery = () => {
-    return database('school_graduation_completion_gender_ethnicity').where('school_id', id)
+  
+    database('school_graduation_completion_gender_ethnicity').where('school_id', id)
       .then( data => {
-        console.log({race});
-        console.log({gender});
-        
         if (gender && race) {
           const dataKeys = Object.keys(data[0]);
           const filteredData = dataKeys.filter( key => key.includes(gender) && key.includes(race));
@@ -174,16 +171,12 @@ app.get('/api/v1/gender-race/:id', (request, response) => {
         }
         return data
       })
-      .catch( error => console.log({ error }));
-  }
-
-    checkQuery()
-    .then( data => {
-      return response.status(200).json(data);
-    })
-    .catch((error) => {
-      response.status(500).json({error});
-    });
+      .then( data => {
+        return response.status(200).json(data);
+      })
+      .catch( error => {
+        response.status(500).json({error});
+      });
   });
 
 app.post('/api/v1/schools', (request, response) => {
