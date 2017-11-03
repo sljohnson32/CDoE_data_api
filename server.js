@@ -23,13 +23,12 @@ app.get('/', (request, response) => {
 //SCHOOL ENDPOINTS
 app.get('/api/v1/schools', (request, response) => {
   let { grade_levels, type } = request.query;
-  console.log('WORKING', grade_levels, type);
   const checkQuery = () => {
     if (grade_levels && type) {
-      return database('schools').where('grade_levels', grade_levels).where('type', type).select();
+      return database('schools').where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`).where('type', type).select();
     }
     if (grade_levels && !type) {
-      return database('schools').where('grade_levels', grade_levels).select();
+      return database('schools').where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`).select();
     }
     if (!grade_levels && type) {
       return database('schools').where('type', type).select();
@@ -161,18 +160,18 @@ app.get('/api/v1/gender-race/:id', (request, response) => {
           return filteredData.map( key => ({ [key]: data[0][key] }))
         }
         return data
-      })
-      .catch( error => console.log({ error }));
+    })
+    .catch( error => console.log({ error }));
   }
 
-    checkQuery()
+  checkQuery()
     .then( data => {
       return response.status(200).json(data);
     })
-    .catch((error) => {
-      response.status(500).json({error});
-    });
+  .catch((error) => {
+    response.status(500).json({error});
   });
+});
 
 app.get('/api/v1/counties/:id', (request, response) => {
   const id = request.params.id;
