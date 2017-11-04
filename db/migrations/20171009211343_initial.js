@@ -28,7 +28,8 @@ exports.up = function(knex, Promise) {
       table.string('grade_display', 30);
       table.string('website', 150);
       table.string('type', 20);
-      table.string('location', 60);
+      table.string('location_lat', 15);
+      table.string('location_lng', 15);
       table.integer('county_id').unsigned();
       table.foreign('county_id').references('counties.id');
       table.integer('district_id').unsigned();

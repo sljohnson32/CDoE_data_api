@@ -69,7 +69,8 @@ const createSchool = (knex, school) => {
     grade_display: school.school_grade_display,
     website: school.school_website,
     type: school.school_type,
-    location: school.school_location,
+    location_lat: school.school_lat,
+    location_lng: school.school_lng,
     district_id: school.district_id
   }, 'id').then(schoolID => {
 

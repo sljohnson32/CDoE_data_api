@@ -44,7 +44,8 @@ const schoolData = [
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://lincolnlancers.org/",
     "school_type": "Charter",
-    "school_location": "{'Lat' : 39.6760184, 'Lng': -105.0257204}",
+    "school_lat": "39.6760184",
+    "school_lng": "-105.0257204",
     "district_id": "1",
     "county_id": "1"
   },
@@ -60,7 +61,8 @@ const schoolData = [
     "school_grade_display": "Grade 7 - Grade 12",
     "school_website": "http://www.ridgeviewacademy.com",
     "school_type": "Charter",
-    "school_location": "{'Lat' : 39.638409, 'Lng': -104.66251}",
+    "school_lat": "39.638409",
+    "school_lng": "-104.66251",
     "district_id": "1",
     "county_id": "1"
   },
@@ -76,7 +78,8 @@ const schoolData = [
     "school_grade_display": "Grade 9 - Grade 12",
     "school_website": "http://www.auldenver.org/",
     "school_type": "Charter",
-    "school_location": "{'Lat' : 39.758861, 'Lng': -105.016829}",
+    "school_lat": "39.758861",
+    "school_lng": "-105.016829",
     "district_id": "2",
     "county_id": "1"
   },
@@ -92,7 +95,8 @@ const schoolData = [
     "school_grade_display": "ECE - Grade 5",
     "school_website": "http://www.academy-360.org/",
     "school_type": "Charter",
-    "school_location": "{'Lat' : 39.781989, 'Lng': -104.8503679}",
+    "school_lat": "39.781989",
+    "school_lng": "-104.8503679",
     "district_id": "3",
     "county_id": "2"
   }
@@ -157,7 +161,8 @@ const createSchool = (knex, school) => {
     grade_display: school.school_grade_display,
     website: school.school_website,
     type: school.school_type,
-    location: school.school_location,
+    location_lat: school.school_lat,
+    location_lng: school.school_lng,
     district_id: school.district_id,
     county_id: school.county_id
   })
