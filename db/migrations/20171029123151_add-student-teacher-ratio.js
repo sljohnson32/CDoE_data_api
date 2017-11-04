@@ -16,6 +16,6 @@ exports.up = function(knex, Promise) {
 
 exports.down = function(knex, Promise) {
   return Promise.all([
-    knex.schema.dropTable('school_student_teacher_ratio'),
+    knex.schema.dropTable('school_student_teacher_ratios'),
   ]);
 };
