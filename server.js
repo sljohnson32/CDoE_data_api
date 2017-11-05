@@ -15,7 +15,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3002);
 
 
 //CLIENT-SIDE ENDPOINTS
@@ -31,7 +31,9 @@ app.get('/api/v1/schools', (request, response) => {
   let { grade_levels, type } = request.query;
   const checkQuery = () => {
     if (grade_levels && type) {
-      return database('schools').where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`).where('type', type).select();
+      return database('schools').where('type', type).where(function() {
+        this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
+      }).select();
     }
     if (grade_levels && !type) {
       return database('schools').where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`).select();
