@@ -28,8 +28,52 @@ app.get('/', (request, response) => {
 
 //SCHOOL ENDPOINTS
 app.get('/api/v1/schools', (request, response) => {
-  let { grade_levels, type } = request.query;
+  let { grade_levels, type, stRatio } = request.query;
+
   const checkQuery = () => {
+
+    //Parsing for specific CMAS and Student Teacher Ratio
+
+    if (grade_levels && type && stRatio) {
+      if (grade_levels == '1') {
+        return database('schools')
+          .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
+          .where('schools.type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+            this.where('schools.grade_levels', grade_levels).orWhere('schools.grade_levels', 'like', `%${grade_levels}`).orWhere('schools.grade_levels', 'like', `%${grade_levels}%`).orWhere('schools.grade_levels', 'like', `${grade_levels}%`)
+          })
+          .select();
+      }
+
+      if (grade_levels == '2') {
+        return database('schools')
+          .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
+          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+            this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
+          })
+        .select();
+      }
+
+      if (grade_levels == '3') {
+        return database('schools')
+          .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
+          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+            this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
+          })
+        .select();
+      }
+
+      if (grade_levels == '4') {
+        return database('schools')
+          .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
+          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+            this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
+          })
+        .select();
+      }
+    }
+
+    //DB Queries for Basic GET requests with Grade Level and Type params
+
     if (grade_levels && type) {
       return database('schools').where('type', type).where(function() {
         this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
