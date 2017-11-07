@@ -28,7 +28,9 @@ app.get('/', (request, response) => {
 
 //SCHOOL ENDPOINTS
 app.get('/api/v1/schools', (request, response) => {
-  let { grade_levels, type, stRatio } = request.query;
+  let { grade_levels, type, stRatio, mathRate } = request.query;
+
+  console.log('Math Rate', mathRate)
 
   const checkQuery = () => {
 
@@ -38,7 +40,8 @@ app.get('/api/v1/schools', (request, response) => {
       if (grade_levels == '1') {
         return database('schools')
           .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .where('schools.type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+          .where('schools.type', type).where('school_student_teacher_ratios.ratio', '<', stRatio)
+          .where(function() {
             this.where('schools.grade_levels', grade_levels).orWhere('schools.grade_levels', 'like', `%${grade_levels}`).orWhere('schools.grade_levels', 'like', `%${grade_levels}%`).orWhere('schools.grade_levels', 'like', `${grade_levels}%`)
           })
           .select();
@@ -47,7 +50,9 @@ app.get('/api/v1/schools', (request, response) => {
       if (grade_levels == '2') {
         return database('schools')
           .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+          .join('school_cmas_ela_math', 'schools.id', '=', 'school_cmas_ela_math.school_id')
+          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where('school_cmas_ela_math.test_name', '=', 'Math Grade 05').where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', 'mathRate')
+          .where(function() {
             this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
           })
         .select();
@@ -56,7 +61,8 @@ app.get('/api/v1/schools', (request, response) => {
       if (grade_levels == '3') {
         return database('schools')
           .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio)
+          .where(function() {
             this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
           })
         .select();
@@ -65,7 +71,8 @@ app.get('/api/v1/schools', (request, response) => {
       if (grade_levels == '4') {
         return database('schools')
           .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where(function() {
+          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio)
+          .where(function() {
             this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
           })
         .select();
@@ -95,6 +102,7 @@ app.get('/api/v1/schools', (request, response) => {
       return response.status(200).json(schools);
     })
     .catch((error) => {
+      console.log({ error })
       response.status(500).json({error});
     });
 });
