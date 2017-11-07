@@ -28,9 +28,7 @@ app.get('/', (request, response) => {
 
 //SCHOOL ENDPOINTS
 app.get('/api/v1/schools', (request, response) => {
-  let { grade_levels, type, stRatio, mathRate } = request.query;
-
-  console.log('Math Rate', mathRate)
+  let { grade_levels, type, stRatio, elaRate, mathRate, scienceRate, satRate } = request.query;
 
   const checkQuery = () => {
 
@@ -51,7 +49,7 @@ app.get('/api/v1/schools', (request, response) => {
         return database('schools')
           .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
           .join('school_cmas_ela_math', 'schools.id', '=', 'school_cmas_ela_math.school_id')
-          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where('school_cmas_ela_math.test_name', '=', 'Math Grade 05').where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', 'mathRate')
+          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where('school_cmas_ela_math.test_name', '=', 'Math Grade 05').where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
           .where(function() {
             this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
           })
@@ -117,6 +115,22 @@ app.get('/api/v1/schools/:id', (request, response) => {
           error: `Could not find school with id ${id}`
         });
       } else return response.status(200).json(school);
+    })
+    .catch((error) => {
+      response.status(500).json(error);
+    });
+});
+
+app.get('/api/v1/schools/population/:id', (request, response) => {
+  const id = request.params.id;
+
+  database('school_student_population').where('school_id', id).select()
+    .then((data) => {
+      if (data.length == 0) {
+        return response.status(404).json({
+          error: `Could not find school population data for school with id ${id}`
+        });
+      } else return response.status(200).json(data);
     })
     .catch((error) => {
       response.status(500).json(error);
