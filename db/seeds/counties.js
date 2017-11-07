@@ -48,6 +48,7 @@ const createDistrict = (knex, district) => {
 
       schools.forEach(school => {
         school.district_id = districtID[0];
+        school.county_id = district.county_id;
         schoolPromises.push(createSchool(knex, school));
       });
 
@@ -71,7 +72,8 @@ const createSchool = (knex, school) => {
     type: school.school_type,
     location_lat: school.school_lat,
     location_lng: school.school_lng,
-    district_id: school.district_id
+    district_id: school.district_id,
+    county_id: school.county_id
   }, 'id').then(schoolID => {
 
     let metricPromises = [];
