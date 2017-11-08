@@ -38,7 +38,8 @@ app.get('/api/v1/schools', (request, response) => {
       if (grade_levels == '1') {
         return database('schools')
           .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .where('schools.type', type).where('school_student_teacher_ratios.ratio', '<', stRatio)
+          .where('schools.type', type)
+          .where('school_student_teacher_ratios.ratio', '<', stRatio)
           .where(function() {
             this.where('schools.grade_levels', grade_levels).orWhere('schools.grade_levels', 'like', `%${grade_levels}`).orWhere('schools.grade_levels', 'like', `%${grade_levels}%`).orWhere('schools.grade_levels', 'like', `${grade_levels}%`)
           })
@@ -47,32 +48,56 @@ app.get('/api/v1/schools', (request, response) => {
 
       if (grade_levels == '2') {
         return database('schools')
-          .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .join('school_cmas_ela_math', 'schools.id', '=', 'school_cmas_ela_math.school_id')
-          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio).where('school_cmas_ela_math.test_name', '=', 'Math Grade 05').where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
-          .where(function() {
-            this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
-          })
+        .where(function() {
+          this.where('schools.grade_levels', grade_levels).orWhere('schools.grade_levels', 'like', `%${grade_levels}`).orWhere('schools.grade_levels', 'like', `%${grade_levels}%`).orWhere('schools.grade_levels', 'like', `${grade_levels}%`)
+        })
+        .where('schools.type', type)
+        .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
+        .join('school_cmas_ela_math', function() {
+          this.on('schools.id', '=', 'school_cmas_ela_math.school_id').onIn('school_cmas_ela_math.test_name', ['Math Grade 05'])
+        })
+        .join('school_cmas_science', 'schools.id', '=', 'school_cmas_science.school_id')
+        .where('school_student_teacher_ratios.ratio', '<', stRatio)
+        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
+        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate)
         .select();
       }
 
       if (grade_levels == '3') {
         return database('schools')
-          .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio)
-          .where(function() {
-            this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
-          })
+        .where(function() {
+          this.where('schools.grade_levels', grade_levels).orWhere('schools.grade_levels', 'like', `%${grade_levels}`).orWhere('schools.grade_levels', 'like', `%${grade_levels}%`).orWhere('schools.grade_levels', 'like', `${grade_levels}%`)
+        })
+        .where('schools.type', type)
+        .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
+        .join('school_cmas_ela_math', function() {
+          this.on('schools.id', '=', 'school_cmas_ela_math.school_id').onIn('school_cmas_ela_math.test_name', ['Math Grade 08'])
+        })
+        .join('school_cmas_science', 'schools.id', '=', 'school_cmas_science.school_id')
+        .where('school_student_teacher_ratios.ratio', '<', stRatio)
+        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
+        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate)
         .select();
       }
 
       if (grade_levels == '4') {
         return database('schools')
-          .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
-          .where('type', type).where('school_student_teacher_ratios.ratio', '<', stRatio)
-          .where(function() {
-            this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
-          })
+        .where(function() {
+          this.where('schools.grade_levels', grade_levels).orWhere('schools.grade_levels', 'like', `%${grade_levels}`).orWhere('schools.grade_levels', 'like', `%${grade_levels}%`).orWhere('schools.grade_levels', 'like', `${grade_levels}%`)
+        })
+        .where('schools.type', type)
+        .join('school_student_teacher_ratios', 'schools.id', '=', 'school_student_teacher_ratios.school_id')
+        .join('school_cmas_ela_math', function() {
+          this.on('schools.id', '=', 'school_cmas_ela_math.school_id').onIn('school_cmas_ela_math.test_name', ['Geometry'])
+        })
+        .join('school_cmas_science', 'schools.id', '=', 'school_cmas_science.school_id')
+        .join('school_sat_psat', function() {
+          this.on('schools.id', '=', 'school_sat_psat.school_id').onIn('school_sat_psat.test_type', ['SAT'])
+        })
+        .where('school_student_teacher_ratios.ratio', '<', stRatio)
+        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
+        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate)
+        .where('school_sat_psat.overall_mean_score', '>', satRate)
         .select();
       }
     }
@@ -81,7 +106,7 @@ app.get('/api/v1/schools', (request, response) => {
 
     if (grade_levels && type) {
       return database('schools').where('type', type).where(function() {
-        this.where('grade_levels', grade_levels).orWhere('grade_levels', 'like', `%${grade_levels}`).orWhere('grade_levels', 'like', `%${grade_levels}%`).orWhere('grade_levels', 'like', `${grade_levels}%`)
+        this.where('schools.grade_levels', grade_levels).orWhere('schools.grade_levels', 'like', `%${grade_levels}`).orWhere('schools.grade_levels', 'like', `%${grade_levels}%`).orWhere('schools.grade_levels', 'like', `${grade_levels}%`)
       }).select();
     }
     if (grade_levels && !type) {
@@ -97,6 +122,7 @@ app.get('/api/v1/schools', (request, response) => {
 
   checkQuery()
     .then((schools) => {
+      console.log(schools)
       return response.status(200).json(schools);
     })
     .catch((error) => {
@@ -137,6 +163,66 @@ app.get('/api/v1/schools/population/:id', (request, response) => {
     });
 });
 
+app.get('/api/v1/schools/graduation/:type/:id', (request, response) => {
+  const { id, type } = request.params
+
+  if (type == 'ge') {
+    database('school_graduation_completion_gender_ethnicity').where('school_id', id).select()
+      .then((data) => {
+        if (data.length == 0) {
+          return response.status(404).json({
+            error: `Could not find gender and race graduation data for school with id ${id}`
+          });
+        } else return response.status(200).json(data);
+      })
+      .catch((error) => {
+        response.status(500).json(error);
+      });
+  } else if (type == 'ipst') {
+    database('school_graduation_completion_ipst').where('school_id', id).select()
+      .then((data) => {
+        if (data.length == 0) {
+          return response.status(404).json({
+            error: `Could not find IPST graduation data for school with id ${id}`
+          });
+        } else return response.status(200).json(data);
+      })
+      .catch((error) => {
+        response.status(500).json(error);
+      });
+  }
+});
+
+app.get('/api/v1/schools/graduation/:id', (request, response) => {
+  const { gender, race } = request.query;
+  const id = request.params.id;
+
+  const checkQuery = () => {
+    return database('school_graduation_completion_gender_ethnicity').where('school_id', id)
+      .then( data => {
+        if (gender && race) {
+          const dataKeys = Object.keys(data[0]);
+          const filteredData = dataKeys.filter( key => key.includes(gender) && key.includes(race));
+          return filteredData.map( key => ({ [key]: data[0][key] }))
+        }
+        if (gender || race) {
+          const dataKeys = Object.keys(data[0]);
+          const filteredData = dataKeys.filter( key => key.includes(gender) || key.includes(race));
+          return filteredData.map( key => ({ [key]: data[0][key] }))
+        }
+        return data
+    })
+    .catch( error => console.log({ error }));
+  }
+
+  checkQuery()
+    .then( data => {
+      return response.status(200).json(data);
+    })
+  .catch((error) => {
+    response.status(500).json({error});
+  });
+});
 
 //DISTRICT ENDPOINTS
 app.get('/api/v1/districts', (request, response) => {
@@ -214,37 +300,6 @@ app.get('/api/v1/grads/:id', (request, response) => {
     .catch( error => {
       response.status(500).json(error);
     });
-});
-
-app.get('/api/v1/gender-race/:id', (request, response) => {
-  const { gender, race } = request.query;
-  const id = request.params.id;
-
-  const checkQuery = () => {
-    return database('school_graduation_completion_gender_ethnicity').where('school_id', id)
-      .then( data => {
-        if (gender && race) {
-          const dataKeys = Object.keys(data[0]);
-          const filteredData = dataKeys.filter( key => key.includes(gender) && key.includes(race));
-          return filteredData.map( key => ({ [key]: data[0][key] }))
-        }
-        if (gender || race) {
-          const dataKeys = Object.keys(data[0]);
-          const filteredData = dataKeys.filter( key => key.includes(gender) || key.includes(race));
-          return filteredData.map( key => ({ [key]: data[0][key] }))
-        }
-        return data
-    })
-    .catch( error => console.log({ error }));
-  }
-
-  checkQuery()
-    .then( data => {
-      return response.status(200).json(data);
-    })
-  .catch((error) => {
-    response.status(500).json({error});
-  });
 });
 
 app.get('/api/v1/counties/:id', (request, response) => {
