@@ -131,7 +131,7 @@ app.get('/api/v1/schools', (request, response) => {
     });
 });
 
-app.get('/api/v1/schools/:id', (request, response) => {
+app.get('/api/v1/school/:id', (request, response) => {
   const id = request.params.id;
 
   database('schools').where('id', id).select()
@@ -147,7 +147,7 @@ app.get('/api/v1/schools/:id', (request, response) => {
     });
 });
 
-app.get('/api/v1/schools/population/:id', (request, response) => {
+app.get('/api/v1/school/:id/population', (request, response) => {
   const id = request.params.id;
 
   database('school_student_population').where('school_id', id).select()
@@ -163,7 +163,7 @@ app.get('/api/v1/schools/population/:id', (request, response) => {
     });
 });
 
-app.get('/api/v1/schools/graduation/:type/:id', (request, response) => {
+app.get('/api/v1/school/:id/graduation/:type', (request, response) => {
   const { id, type } = request.params
 
   if (type == 'ge') {
@@ -193,7 +193,7 @@ app.get('/api/v1/schools/graduation/:type/:id', (request, response) => {
   }
 });
 
-app.get('/api/v1/schools/graduation/:id', (request, response) => {
+app.get('/api/v1/school/:id/graduation', (request, response) => {
   const { gender, race } = request.query;
   const id = request.params.id;
 
@@ -226,29 +226,30 @@ app.get('/api/v1/schools/graduation/:id', (request, response) => {
 
 //DISTRICT ENDPOINTS
 app.get('/api/v1/districts', (request, response) => {
-  let { countyID } = request.query;
-
-  const checkQuery = () => {
-    if (countyID) {
-      return database('districts').where('county_id', countyID).select();
-    } else {
-      return database('districts').select();
-    }
-  };
-
-  checkQuery()
+  database('districts').select()
     .then((districts) => {
       response.status(200).json(districts);
     })
     .catch((error) => {
-      response.status(500).json({error});
+      response.status(500).json(error);
     });
 });
 
-app.get('/api/v1/districts/:id', (request, response) => {
+app.get('/api/v1/district/:id', (request, response) => {
   const id = request.params.id;
 
-  database('districts').where('id', id).select()
+  const checkQuery = () => {
+    if (id) {
+      database('districts').where('id', id).select()
+    } else {
+      return response
+        .status(422)
+        .send({ error: `Please include a district id value as a request param to get data for a specific district.`
+      });
+    }
+  };
+
+  checkQuery()
     .then((district) => {
       if (district.length == 0) {
         return response.status(404).json({
@@ -272,35 +273,66 @@ app.get('/api/v1/counties', (request, response) => {
     });
 });
 
-app.get('/api/v1/grads', (request, response) => {
+app.get('/api/v1/county/:id/districts', (request, response) => {
+  const { id } = request.params;
+
+  const checkQuery = () => {
+    if (id) {
+      return database('districts').where('county_id', id).select();
+    } else {
+      return database('districts').select();
+    }
+  };
+
+  checkQuery()
+    .then((districts) => {
+      response.status(200).json(districts);
+    })
+    .catch((error) => {
+      response.status(500).json({error});
+    });
+});
+
+
+//GLOBAL GETS FOR DATA IN DB
+
+//GET ALL IPST GRAD DATA IN DB
+app.get('/api/v1/graduation/ipst', (request, response) => {
   database('school_graduation_completion_ipst')
     .then( grads => {
-      if (!grads.length) {
-        return response.status(404).json({
-          error: 'Could not find graduates'
-        });
-      } else return response.status(200).json(grads);
+      return response.status(200).json(grads);
     })
     .catch( error => {
       response.status(500).json(error);
     });
 });
 
-app.get('/api/v1/grads/:id', (request, response) => {
-  const id = request.params.id;
-
-  database('school_graduation_completion_ipst').where('school_id', id).select()
+//GET ALL GENDER & ETHNICITY GRAD DATA IN DB
+app.get('/api/v1/graduation/ge', (request, response) => {
+  database('school_graduation_completion_gender_ethnicity')
     .then( grads => {
-      if (!grads.length) {
-        return response.status(404).json({
-          error: `Could not find graduates from school with id ${id}`
-        });
-      } else response.status(200).json(grads);
+      return response.status(200).json(grads);
     })
     .catch( error => {
       response.status(500).json(error);
     });
 });
+
+// app.get('/api/v1/grads/:id', (request, response) => {
+//   const id = request.params.id;
+//
+//   database('school_graduation_completion_ipst').where('school_id', id).select()
+//     .then( grads => {
+//       if (!grads.length) {
+//         return response.status(404).json({
+//           error: `Could not find graduates from school with id ${id}`
+//         });
+//       } else response.status(200).json(grads);
+//     })
+//     .catch( error => {
+//       response.status(500).json(error);
+//     });
+// });
 
 app.get('/api/v1/counties/:id', (request, response) => {
   const id = request.params.id;
