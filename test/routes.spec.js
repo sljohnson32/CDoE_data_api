@@ -135,7 +135,7 @@ describe('API Routes', () => {
 
   it('should be able to return a county by the id', (done)=> {
     chai.request(server)
-      .get('/api/v1/counties/1')
+      .get('/api/v1/county/1')
       .end((error, response) => {
         response.should.have.status(200);
         response.should.be.json;
@@ -153,7 +153,7 @@ describe('API Routes', () => {
 
   it('should be able to return a district by the id', (done)=> {
     chai.request(server)
-      .get('/api/v1/districts/1')
+      .get('/api/v1/district/1')
       .end((error, response) => {
         response.should.have.status(200);
         response.should.be.json;
@@ -173,7 +173,7 @@ describe('API Routes', () => {
 
   it('should be able to return a school by the id', (done)=> {
     chai.request(server)
-      .get('/api/v1/schools/2')
+      .get('/api/v1/school/2')
       .end((error, response) => {
         response.should.have.status(200);
         response.should.be.json;
@@ -202,7 +202,7 @@ describe('API Routes', () => {
 
   it('should return a 404 for a school id that does not exist', (done) => {
     chai.request(server)
-      .get('/ap1/v1/schools/4590001')
+      .get('/ap1/v1/school/4590001')
       .end((error, response) => {
         response.should.have.status(404);
         done();
@@ -211,7 +211,7 @@ describe('API Routes', () => {
 
   it('should return a 404 for a district id that does not exist', (done) => {
     chai.request(server)
-      .get('/ap1/v1/districts/4598978971')
+      .get('/ap1/v1/district/4598978971')
       .end((error, response) => {
         response.should.have.status(404);
         done();
@@ -220,7 +220,7 @@ describe('API Routes', () => {
 
   it('should return a 404 for a counties id that does not exist', (done) => {
     chai.request(server)
-      .get('/ap1/v1/counties/8937410892374')
+      .get('/ap1/v1/county/8937410892374')
       .end((error, response) => {
         response.should.have.status(404);
         done();
