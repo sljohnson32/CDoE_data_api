@@ -122,19 +122,17 @@ app.get('/api/v1/schools', (request, response) => {
 
   checkQuery()
     .then((schools) => {
-      console.log(schools)
       return response.status(200).json(schools);
     })
-    .catch((error) => {
-      console.log({ error })
+    .catch(error => {
       response.status(500).json({error});
     });
 });
 
 app.get('/api/v1/school/:id', (request, response) => {
-  const id = request.params.id;
+  const schoolID = request.params.id;
 
-  database('schools').where('id', id).select()
+  database('schools').where('id', schoolID).select()
     .then((school) => {
       if (school.length == 0) {
         return response.status(404).json({
@@ -142,7 +140,7 @@ app.get('/api/v1/school/:id', (request, response) => {
         });
       } else return response.status(200).json(school);
     })
-    .catch((error) => {
+    .catch(error => {
       response.status(500).json(error);
     });
 });
@@ -158,7 +156,7 @@ app.get('/api/v1/school/:id/population', (request, response) => {
         });
       } else return response.status(200).json(data);
     })
-    .catch((error) => {
+    .catch(error => {
       response.status(500).json(error);
     });
 });
@@ -175,7 +173,7 @@ app.get('/api/v1/school/:id/graduation/:type', (request, response) => {
           });
         } else return response.status(200).json(data);
       })
-      .catch((error) => {
+      .catch(error => {
         response.status(500).json(error);
       });
   } else if (type == 'ipst') {
@@ -187,7 +185,7 @@ app.get('/api/v1/school/:id/graduation/:type', (request, response) => {
           });
         } else return response.status(200).json(data);
       })
-      .catch((error) => {
+      .catch(error => {
         response.status(500).json(error);
       });
   }
@@ -199,7 +197,7 @@ app.get('/api/v1/school/:id/graduation', (request, response) => {
 
   const checkQuery = () => {
     return database('school_graduation_completion_gender_ethnicity').where('school_id', id)
-      .then( data => {
+      .then(data => {
         if (gender && race) {
           const dataKeys = Object.keys(data[0]);
           const filteredData = dataKeys.filter( key => key.includes(gender) && key.includes(race));
@@ -212,14 +210,16 @@ app.get('/api/v1/school/:id/graduation', (request, response) => {
         }
         return data
     })
-    .catch( error => console.log({ error }));
+    .catch(error => {
+      response.status(500).json({error});
+    });
   }
 
   checkQuery()
     .then( data => {
       return response.status(200).json(data);
     })
-  .catch((error) => {
+  .catch(error => {
     response.status(500).json({error});
   });
 });
@@ -230,17 +230,17 @@ app.get('/api/v1/districts', (request, response) => {
     .then((districts) => {
       response.status(200).json(districts);
     })
-    .catch((error) => {
+    .catch(error => {
       response.status(500).json(error);
     });
 });
 
 app.get('/api/v1/district/:id', (request, response) => {
-  const id = request.params.id;
+  const districtID = request.params.id;
 
   const checkQuery = () => {
-    if (id) {
-      database('districts').where('id', id).select()
+    if (districtID) {
+      return database('districts').where('id', districtID).select()
     } else {
       return response
         .status(422)
@@ -257,7 +257,7 @@ app.get('/api/v1/district/:id', (request, response) => {
         });
       } else return response.status(200).json(district);
     })
-    .catch((error) => {
+    .catch(error => {
       response.status(500).json(error);
     });
 });
@@ -268,7 +268,34 @@ app.get('/api/v1/counties', (request, response) => {
     .then((counties) => {
       response.status(200).json(counties);
     })
-    .catch((error) => {
+    .catch(error => {
+      response.status(500).json(error);
+    });
+});
+
+app.get('/api/v1/county/:id', (request, response) => {
+  const countyID = request.params.id;
+
+  const checkQuery = () => {
+    if (countyID) {
+      return database('counties').where('id', countyID).select()
+    } else {
+      return response
+        .status(422)
+        .send({ error: `Please include a county id value as a request param to get data for a specific county.`
+      });
+    }
+  };
+
+  checkQuery()
+    .then((county) => {
+      if (county.length == 0) {
+        return response.status(404).json({
+          error: `Could not find county with id ${id}`
+        });
+      } else return response.status(200).json(county);
+    })
+    .catch(error => {
       response.status(500).json(error);
     });
 });
@@ -288,7 +315,7 @@ app.get('/api/v1/county/:id/districts', (request, response) => {
     .then((districts) => {
       response.status(200).json(districts);
     })
-    .catch((error) => {
+    .catch(error => {
       response.status(500).json({error});
     });
 });
@@ -345,7 +372,7 @@ app.get('/api/v1/counties/:id', (request, response) => {
         });
       } else return response.status(200).json(county);
     })
-    .catch((error) => {
+    .catch(error => {
       response.status(500).json(error);
     });
 });
