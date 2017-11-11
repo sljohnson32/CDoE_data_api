@@ -26,6 +26,17 @@ app.get('/', (request, response) => {
 
 //API ENDPOINTS
 
+//SERVER START
+app.get('/api/v1/start', (request, response) => {
+  database('counties').select()
+    .then((counties) => {
+      return response.status(204);
+    })
+    .catch(error => {
+      response.status(500).json(error);
+    });
+});
+
 //SCHOOL ENDPOINTS
 app.get('/api/v1/schools', (request, response) => {
   let { grade_levels, type, stRatio, elaRate, mathRate, scienceRate, satRate } = request.query;
