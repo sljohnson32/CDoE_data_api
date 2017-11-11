@@ -30,7 +30,7 @@ app.get('/', (request, response) => {
 app.get('/api/v1/start', (request, response) => {
   database('counties').select()
     .then((counties) => {
-      return response.status(204);
+      return response.status(204).send('Server started.');
     })
     .catch(error => {
       response.status(500).json(error);
