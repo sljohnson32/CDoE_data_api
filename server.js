@@ -69,8 +69,8 @@ app.get('/api/v1/schools', (request, response) => {
         })
         .join('school_cmas_science', 'schools.id', '=', 'school_cmas_science.school_id')
         .where('school_student_teacher_ratios.ratio', '<', stRatio)
-        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
-        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate)
+        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate / 100)
+        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate / 100)
         .select();
       }
 
@@ -86,8 +86,8 @@ app.get('/api/v1/schools', (request, response) => {
         })
         .join('school_cmas_science', 'schools.id', '=', 'school_cmas_science.school_id')
         .where('school_student_teacher_ratios.ratio', '<', stRatio)
-        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
-        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate)
+        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate / 100)
+        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate / 100)
         .select();
       }
 
@@ -106,8 +106,8 @@ app.get('/api/v1/schools', (request, response) => {
           this.on('schools.id', '=', 'school_sat_psat.school_id').onIn('school_sat_psat.test_type', ['SAT'])
         })
         .where('school_student_teacher_ratios.ratio', '<', stRatio)
-        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate)
-        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate)
+        .where('school_cmas_ela_math.met_exceeded_expectations_rate', '>', mathRate / 100)
+        .where('school_cmas_science.met_exceeded_expectations_rate', '>', scienceRate / 100)
         .where('school_sat_psat.overall_mean_score', '>', satRate)
         .select();
       }
