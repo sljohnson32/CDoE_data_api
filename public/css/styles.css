@@ -1,5 +1,6 @@
 body {
-  background-color: #BDBDBD;
+  background-color: dodgerblue;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   padding: 80px;
@@ -13,4 +14,21 @@ header {
   padding: 20px 0 50px;
   text-align: center;
   text-decoration: underline;
+}
+
+p {
+  margin: 20px 0 40px;
+}
+
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+h4 {
+  font-style: italic;
 }
